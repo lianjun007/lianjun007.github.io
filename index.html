@@ -33,10 +33,10 @@
         }
 
         .title {
-			color: white;
-			/* 相对定位 */
-			position: relative;
-		}
+            color: white;
+            /* 相对定位 */
+            position: relative;
+        }
 
         .title2 {
             width: 100%;
@@ -49,24 +49,24 @@
             width: 100%;
             text-align: center;
             display: flex;
-			justify-content: space-evenly;
-			align-items: center;
+            justify-content: space-evenly;
+            align-items: center;
             margin-bottom: 80px;
             position: relative;
         }
 
-		.title::after {
-			content: "安徽商贸职业技术学院";
-			color: transparent;
+        .title::after {
+            content: "安徽商贸职业技术学院";
+            color: transparent;
             position: absolute;
             top: 0;
             left: 0;
-            background: linear-gradient(to right,#fe0000,blue);
-			background-clip: text;
-			-webkit-background-clip: text;
-			clip-path: circle(75px at 0% 50%);
-			animation: light 5s infinite;
-		}
+            background: linear-gradient(to right, #fe0000, blue);
+            background-clip: text;
+            -webkit-background-clip: text;
+            clip-path: circle(75px at 0% 50%);
+            animation: light 5s infinite;
+        }
 
         .timeline {
             display: flex;
@@ -205,54 +205,63 @@
             }
         }
 
-		@media (max-width: 450px) {
-			.title {
-				font-size: 40px;
-			}
-		}
+        @media (max-width: 450px) {
+            .title {
+                font-size: 40px;
+            }
+        }
 
-		@media (min-width: 451px) and (max-width: 600px) {
-			.title {
-				font-size: 50px;
-			}
-		}
+        @media (min-width: 451px) and (max-width: 600px) {
+            .title {
+                font-size: 50px;
+            }
+        }
 
-		@media (min-width: 601px) and (max-width: 740px) {
-			.title {
-				font-size: 60px;
-			}
-		}
+        @media (min-width: 601px) and (max-width: 740px) {
+            .title {
+                font-size: 60px;
+            }
+        }
 
-		@media (min-width: 741px) and (max-width: 880px) {
-			.title {
-				font-size: 70px;
-			}
-		}
+        @media (min-width: 741px) and (max-width: 880px) {
+            .title {
+                font-size: 70px;
+            }
+        }
 
-		@media (min-width: 881px) {
-			.title {
-				font-size: 84px;
-			}
-		}
+        @media (min-width: 881px) {
+            .title {
+                font-size: 84px;
+            }
+        }
 
-		@keyframes light {
-			0% {
-				clip-path: circle(150px at 0% 50%);
-			}
+        @keyframes light {
+            0% {
+                clip-path: circle(150px at 0% 50%);
+            }
 
-			50% {
-				clip-path: circle(150px at 100% 50%);
-			}
+            50% {
+                clip-path: circle(150px at 100% 50%);
+            }
 
-			100% {
-				clip-path: circle(150px at 0% 50%);
-			}
-		}
+            100% {
+                clip-path: circle(150px at 0% 50%);
+            }
+        }
 
         video {
             width: 100%;
         }
 
+        @keyframes scroll {
+            from {
+                top: 0;
+            }
+
+            to {
+                top: -100%;
+            }
+        }
     </style>
 </head>
 
@@ -417,7 +426,7 @@
             </div>
         </div>
     </div>
-    <video poster="./img/16.jpg" controls autoplay loop src="./img/video.mp4"></video>
+    <video id="scroll-btn" poster="./img/16.jpg" controls autoplay loop src="./img/video.mp4"></video>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script>
         document.addEventListener('touchstart', function (event) {
@@ -483,6 +492,31 @@
                         }
                     });
                 });
+
+                var autoScroll = true;
+                var timer = setInterval(scrollToNext, 1000);
+
+                function scrollToNext() {
+                    if (autoScroll) {
+                        var index = selectors.item.index(selectors.item.filter('.' + selectors.activeClass));
+                        if (index < itemLength - 1) {
+                            var nextPos = selectors.item.eq(index + 1).offset().top;
+                            $('html, body').animate({ scrollTop: nextPos }, 'slow');
+                        }
+                        else {
+                            autoScroll = false;
+                        }
+                    }
+                }
+
+                $(document).on('click keydown', function () {
+                    autoScroll = false;
+                });
+
+                $(document).on('dblclick', function () {
+                    autoScroll = true;
+                });
+
             };
         })(jQuery)
         $("#shell").timeline();
