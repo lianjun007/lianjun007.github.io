@@ -1,526 +1,563 @@
 <!DOCTYPE html>
+<!-- 作者：李言君 王立欣 -->
+<!-- 班级：移动互联应用技术222班 -->
+<!-- 作品名称：回首百廿 -->
+<!-- 庆祝安徽商贸职业技术学院建校120周年 -->
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>商贸校庆</title>
-    <link rel="png" href="./logo.ico" sizes="128x128">
-    <style>
-        * {
-            padding: 0;
-            margin: 0;
-        }
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="ico" href="./img/logo.ico" />
+	<title>回首百廿</title>
+	<style>
+		* {
+			padding: 0;
+			margin: 0;
+		}
 
-        .shell {
-            width: 100%;
-            position: relative;
-            padding: 80px 0;
-            background-attachment: fixed;
-            background-size: cover;
-            background-position: center;
-        }
+		.shell {
+			width: 100%;
+			position: relative;
+			padding: 80px 0;
+			background-attachment: fixed;
+			background-size: cover;
+			background-position: center;
+		}
 
-        .shell:before {
-            position: absolute;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(99, 99, 99, 0.8);
-            content: "";
-        }
+		.shell:before {
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			background: rgba(99, 99, 99, 0.8);
+			content: "";
+		}
 
-        .title {
-            color: white;
-            /* 相对定位 */
-            position: relative;
-        }
+		.title3 {
+			width: 100%;
+			text-align: center;
+			display: flex;
+			justify-content: space-evenly;
+			align-items: center;
+			margin-bottom: 80px;
+			position: relative;
+		}
 
-        .title2 {
-            width: 100%;
-            text-align: center;
-            margin-bottom: 80px;
-            position: relative;
-        }
+		.title2 {
+			width: 100%;
+			text-align: center;
+			margin-bottom: 80px;
+			position: relative;
+		}
 
-        .title3 {
-            width: 100%;
-            text-align: center;
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-            margin-bottom: 80px;
-            position: relative;
-        }
+		.timeline {
+			display: flex;
+			margin: 0 auto;
+			flex-wrap: wrap;
+			flex-direction: column;
+			max-width: 700px;
+			position: relative;
+		}
 
-        .title::after {
-            content: "安徽商贸职业技术学院";
-            color: transparent;
-            position: absolute;
-            top: 0;
-            left: 0;
-            background: linear-gradient(to right, #fe0000, blue);
-            background-clip: text;
-            -webkit-background-clip: text;
-            clip-path: circle(75px at 0% 50%);
-            animation: light 5s infinite;
-        }
+		.content-title {
+			font-weight: normal;
+			font-size: 66px;
+			margin: -10px 0 0 0;
+			transition: 0.4s;
+			padding: 0 10px;
+			box-sizing: border-box;
+			color: #fff;
+		}
 
-        .timeline {
-            display: flex;
-            margin: 0 auto;
-            flex-wrap: wrap;
-            flex-direction: column;
-            max-width: 700px;
-            position: relative;
-        }
+		.content-desc {
+			margin: 0;
+			font-size: 15px;
+			box-sizing: border-box;
+			color: rgba(255, 255, 255, 0.7);
+			line-height: 25px;
+		}
 
-        .content-title {
-            font-weight: normal;
-            font-size: 66px;
-            margin: -10px 0 0 0;
-            transition: 0.4s;
-            padding: 0 10px;
-            box-sizing: border-box;
-            color: #fff;
-        }
+		.timeline:before {
+			position: absolute;
+			left: 50%;
+			width: 2px;
+			height: 100%;
+			margin-left: -1px;
+			content: "";
+			background: rgba(255, 255, 255, 0.07);
+		}
 
-        .content-desc {
-            margin: 0;
-            font-size: 15px;
-            box-sizing: border-box;
-            color: rgba(255, 255, 255, 0.7);
-            line-height: 25px;
-        }
+		.item {
+			padding: 40px 0;
+			opacity: 0.3;
+			filter: blur(2px);
+			transition: 0.5s;
+			box-sizing: border-box;
+			width: calc(50% - 40px);
+			display: flex;
+			position: relative;
+			transform: translateY(-80px);
+		}
 
-        .timeline:before {
-            position: absolute;
-            left: 50%;
-            width: 2px;
-            height: 100%;
-            margin-left: -1px;
-            content: "";
-            background: rgba(255, 255, 255, 0.07);
-        }
+		.item:before {
+			/* 设置在伪元素before中的内容  */
+			content: attr(data-text);
+			letter-spacing: 3px;
+			width: 100%;
+			position: absolute;
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 13px;
+			border-left: 2px solid rgba(255, 255, 255, 0.5);
+			top: 70%;
+			margin-top: -5px;
+			padding-left: 15px;
+			opacity: 0;
+			right: calc(-100% - 56px);
+			font: 900 20px '';
+			letter-spacing: 5px;
+		}
 
-        .item {
-            padding: 40px 0;
-            opacity: 0.3;
-            filter: blur(2px);
-            transition: 0.5s;
-            box-sizing: border-box;
-            width: calc(50% - 40px);
-            display: flex;
-            position: relative;
-            transform: translateY(-80px);
-        }
+		.item:nth-child(even) {
+			align-self: flex-end;
+		}
 
-        .item:before {
-            /* 设置在伪元素before中的内容  */
-            content: attr(data-text);
-            letter-spacing: 3px;
-            width: 100%;
-            position: absolute;
-            color: rgba(255, 255, 255, 0.5);
-            font-size: 13px;
-            border-left: 2px solid rgba(255, 255, 255, 0.5);
-            top: 70%;
-            margin-top: -5px;
-            padding-left: 15px;
-            opacity: 0;
-            right: calc(-100% - 56px);
-            font: 900 20px '';
-            letter-spacing: 5px;
-        }
+		.item:nth-child(even):before {
+			right: auto;
+			text-align: right;
+			left: calc(-100% - 56px);
+			padding-left: 0;
+			border-left: none;
+			border-right: 2px solid rgba(255, 255, 255, 0.5);
+			padding-right: 15px;
+		}
 
-        .item:nth-child(even) {
-            align-self: flex-end;
-        }
+		.item--active {
+			opacity: 1;
+			transform: translateY(0);
+			filter: blur(0px);
+		}
 
-        .item:nth-child(even):before {
-            right: auto;
-            text-align: right;
-            left: calc(-100% - 56px);
-            padding-left: 0;
-            border-left: none;
-            border-right: 2px solid rgba(255, 255, 255, 0.5);
-            padding-right: 15px;
-        }
+		.item--active:before {
+			top: 50%;
+			transition: 0.3s all 0.2s;
+			opacity: 1;
+		}
 
-        .item--active {
-            opacity: 1;
-            transform: translateY(0);
-            filter: blur(0px);
-        }
+		.item--active .content-title {
+			margin: -50px 0 20px 0;
+		}
 
-        .item--active:before {
-            top: 50%;
-            transition: 0.3s all 0.2s;
-            opacity: 1;
-        }
+		.img {
+			max-width: 100%;
+			box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+		}
 
-        .item--active .content-title {
-            margin: -50px 0 20px 0;
-        }
+		.subtitle {
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 64px;
+			letter-spacing: 5px;
+			margin: 10px 0 0 0;
+			font-weight: normal;
+		}
 
-        .img {
-            max-width: 100%;
-            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
-        }
+		@media only screen and (max-width: 767px) {
+			.item {
+				align-self: baseline !important;
+				width: 100%;
+				padding: 0 30px 150px 80px;
+			}
 
-        .subtitle {
-            color: rgba(255, 255, 255, 0.5);
-            font-size: 32px;
-            letter-spacing: 5px;
-            margin: 10px 0 0 0;
-            font-weight: normal;
-        }
+			.item:before {
+				left: 10px !important;
+				padding: 0 !important;
+				top: 50px;
+				text-align: center !important;
+				width: 60px;
+				border: none !important;
+			}
 
-        @media only screen and (max-width: 767px) {
-            .item {
-                align-self: baseline !important;
-                width: 100%;
-                padding: 0 30px 150px 80px;
-            }
+			.item:last-child {
+				padding-bottom: 40px;
+			}
+		}
 
-            .item:before {
-                left: 10px !important;
-                padding: 0 !important;
-                top: 50px;
-                text-align: center !important;
-                width: 60px;
-                border: none !important;
-            }
+		@media only screen and (max-width: 767px) {
+			.timeline:before {
+				left: 40px;
+			}
+		}
 
-            .item:last-child {
-                padding-bottom: 40px;
-            }
-        }
+		@media (min-width: 450px) {
+			.title {
+				font-size: 40px;
+			}
+		}
 
-        @media only screen and (max-width: 767px) {
-            .timeline:before {
-                left: 40px;
-            }
-        }
+		@media (min-width: 451px) and (max-width: 600px) {
+			.title {
+				font-size: 50px;
+			}
+		}
 
-        @media (max-width: 450px) {
-            .title {
-                font-size: 40px;
-            }
-        }
+		@media (min-width: 601px) and (max-width: 740px) {
+			.title {
+				font-size: 60px;
+			}
+		}
 
-        @media (min-width: 451px) and (max-width: 600px) {
-            .title {
-                font-size: 50px;
-            }
-        }
+		@media (min-width: 741px) and (max-width: 880px) {
+			.title {
+				font-size: 70px;
+			}
+		}
 
-        @media (min-width: 601px) and (max-width: 740px) {
-            .title {
-                font-size: 60px;
-            }
-        }
+		@media (min-width: 881px) {
+			.title {
+				font-size: 84px;
+			}
+		}
 
-        @media (min-width: 741px) and (max-width: 880px) {
-            .title {
-                font-size: 70px;
-            }
-        }
+		.title {
+			color: white;
+			position: relative;
+		}
 
-        @media (min-width: 881px) {
-            .title {
-                font-size: 84px;
-            }
-        }
+		.title::after {
+			content: "安徽商贸职业技术学院";
+			color: transparent;
+			position: absolute;
 
-        @keyframes light {
-            0% {
-                clip-path: circle(150px at 0% 50%);
-            }
+			top: 0;
+			left: 0;
+			background: linear-gradient(to right, #fe0000, blue);
+			background-clip: text;
+			-webkit-background-clip: text;
+			clip-path: circle(150px at 0% 50%);
+			animation: light 5s infinite;
+		}
 
-            50% {
-                clip-path: circle(150px at 100% 50%);
-            }
+		@keyframes light {
+			0% {
+				clip-path: circle(150px at 0% 50%);
+			}
 
-            100% {
-                clip-path: circle(150px at 0% 50%);
-            }
-        }
+			50% {
+				clip-path: circle(150px at 100% 50%);
+			}
 
-        video {
-            width: 100%;
-        }
+			100% {
+				clip-path: circle(150px at 0% 50%);
+			}
+		}
 
-        @keyframes scroll {
-            from {
-                top: 0;
-            }
+		.rolling {
+			height: 2000px;
+			width: 100px;
+		}
 
-            to {
-                top: -100%;
-            }
-        }
-    </style>
+		audio {
+			display: none;
+		}
+	</style>
 </head>
 
 <body>
+	<div class="rollin">
+		<audio controls loop autoplay>
+			<source src="./img/music.mp3" type="audio/mpeg">
+			您的浏览器不支持audio元素。
+		</audio>
+		<div class="shell" id="shell">
+			<div class="title3">
+				<h2 class="title">安徽商贸职业技术学院</h2>
+			</div>
+			<div class="title2">
+				<h3 class="subtitle">百廿校庆</h3>
+			</div>
+			<div class="timeline">
 
-    <div class="shell" id="shell">
-        <div class="title3">
-            <h2 class="title">安徽商贸职业技术学院</h2>
-        </div>
-        <div class="title2">
-            <h3 class="subtitle">百廿校庆</h3>
-        </div>
-        <div class="timeline">
-            <div class="item" data-text="安徽旅湘公学">
-                <div class="content">
-                    <img class="img" src="./img/01.jpg" />
-                    <h2 class="content-title">1903</h2>
-                    <p class="content-desc">
-                        1903年李光炯、卢仲农在湖南长沙创办安徽旅湘公学。
-                    </p>
-                </div>
-            </div>
+				<div class="item" data-text="安徽旅湘公学">
+					<div class="content">
+						<img class="img" src="./img/01.jpg" />
+						<h2 class="content-title">1903</h2>
+						<p class="content-desc">
+							1903年李光炯、卢仲农在湖南长沙创办安徽旅湘公学。
+						</p>
+					</div>
+				</div>
 
-            <div class="item" data-text="安徽公学">
-                <div class="content">
-                    <img class="img" src="./img/02.jpg" />
-                    <h2 class="content-title">1904</h2>
-                    <p class="content-desc">
-                        1904年安徽旅湘公学由湖南长沙迁至安徽芜湖，更名为安徽公学。
-                    </p>
-                </div>
-            </div>
+				<div class="item" data-text="安徽公学">
+					<div class="content">
+						<img class="img" src="./img/02.jpg" />
+						<h2 class="content-title">1904</h2>
+						<p class="content-desc">
+							1904年安徽旅湘公学由湖南长沙迁至安徽芜湖，更名为安徽公学。
+						</p>
+					</div>
+				</div>
 
-            <div class="item" data-text="省立第一甲种商业学校">
-                <div class="content">
-                    <img class="img" src="./img/03.jpg" />
-                    <h2 class="content-title">1919</h2>
-                    <p class="content-desc">
-                        1904~1919年间，安徽公学停办，1919年复办，改名为省立第一甲种商业学校。
-                    </p>
-                </div>
-            </div>
+				<div class="item" data-text="省立第一甲种商业学校">
+					<div class="content">
+						<img class="img" src="./img/03.jpg" />
+						<h2 class="content-title">1919</h2>
+						<p class="content-desc">
+							1904~1919年间，安徽公学停办，1919年复办，改名为省立第一甲种商业学校。
+						</p>
+					</div>
+				</div>
 
-            <div class="item" data-text="省立第一商业学校">
-                <div class="content">
-                    <img class="img" src="./img/04.jpg" />
-                    <h2 class="content-title">1923</h2>
-                    <p class="content-desc">
-                        1923年省立第一甲种商业学校更名为省立第一商业学校。
-                    </p>
-                </div>
-            </div>
+				<div class="item" data-text="省立第一商业学校">
+					<div class="content">
+						<img class="img" src="./img/04.jpg" />
+						<h2 class="content-title">1923</h2>
+						<p class="content-desc">
+							1923年省立第一甲种商业学校更名为省立第一商业学校。
+						</p>
+					</div>
+				</div>
 
-            <div class="item" data-text="省立第二中等职业学校">
-                <div class="content">
-                    <img class="img" src="./img/05.jpg" />
-                    <h2 class="content-title">1928</h2>
-                    <p class="content-desc">
-                        1928年省立第一商业学校与省立第二甲种农业学校合并，更名为省立第二中等职业学校。
-                    </p>
-                </div>
-            </div>
+				<div class="item" data-text="省立第二中等职业学校">
+					<div class="content">
+						<img class="img" src="./img/05.jpg" />
+						<h2 class="content-title">1928</h2>
+						<p class="content-desc">
+							1928年省立第一商业学校与省立第二甲种农业学校合并，更名为省立第二中等职业学校。
+						</p>
+					</div>
+				</div>
 
-            <div class="item" data-text="省立芜湖高级农业职业学校">
-                <div class="content">
-                    <img class="img" src="./img/06.jpg" />
-                    <h2 class="content-title">1934</h2>
-                    <p class="content-desc">
-                        1934年省立第二中等职业学校更名为省立芜湖高级农业职业学校。
-                    </p>
-                </div>
-            </div>
+				<div class="item" data-text="省立芜湖高级农业职业学校">
+					<div class="content">
+						<img class="img" src="./img/06.jpg" />
+						<h2 class="content-title">1934</h2>
+						<p class="content-desc">
+							1934年省立第二中等职业学校更名为省立芜湖高级农业职业学校。
+						</p>
+					</div>
+				</div>
 
-            <div class="item" data-text="学校停办">
-                <div class="content">
-                    <img class="img" src="./img/07.jpg" />
-                    <h2 class="content-title">1938</h2>
-                    <p class="content-desc">
-                        1938年5月 “七七事变”后 全国进入全面抗击日本侵略的民族解放战争，芜湖大多数学校被迫解散，学校停办。
-                    </p>
-                </div>
-            </div>
+				<div class="item" data-text="学校停办">
+					<div class="content">
+						<img class="img" src="./img/07.jpg" />
+						<h2 class="content-title">1938</h2>
+						<p class="content-desc">
+							1938年5月 “七七事变”后 全国进入全面抗击日本侵略的民族解放战争，芜湖大多数学校被迫解散，学校停办。
+						</p>
+					</div>
+				</div>
 
-            <div class="item" data-text="安徽省立立煌高级商业职业学校">
-                <div class="content">
-                    <img class="img" src="./img/08.jpg" />
-                    <h2 class="content-title">1942</h2>
-                    <p class="content-desc">
-                        1942年 学校在立蝗县(今金寨县)重建，改名为安徽省立立煌高级商业职业学校。
-                    </p>
-                </div>
-            </div>
+				<div class="item" data-text="安徽省立立煌高级商业职业学校">
+					<div class="content">
+						<img class="img" src="./img/08.jpg" />
+						<h2 class="content-title">1942</h2>
+						<p class="content-desc">
+							1942年 学校在立蝗县(今金寨县)重建，改名为安徽省立立煌高级商业职业学校。
+						</p>
+					</div>
+				</div>
 
-            <div class="item" data-text="省立芜湖高级商业职业学校">
-                <div class="content">
-                    <img class="img" src="./img/09.jpg" />
-                    <h2 class="content-title">1946</h2>
-                    <p class="content-desc">
-                        1946年学校迁回芜湖，更名为省立芜湖高级商业职业学校。
-                    </p>
-                </div>
-            </div>
+				<div class="item" data-text="省立芜湖高级商业职业学校">
+					<div class="content">
+						<img class="img" src="./img/09.jpg" />
+						<h2 class="content-title">1946</h2>
+						<p class="content-desc">
+							1946年学校迁回芜湖，更名为省立芜湖高级商业职业学校。
+						</p>
+					</div>
+				</div>
 
-            <div class="item" data-text="芜湖市高级职业学校">
-                <div class="content">
-                    <img class="img" src="./img/10.jpg" />
-                    <h2 class="content-title">1949</h2>
-                    <p class="content-desc">
-                        1949年芜湖高级商业职业学校与芜湖工业学校、芜湖农业学校合并为芜湖市高级职业学校。
-                    </p>
-                </div>
-            </div>
+				<div class="item" data-text="芜湖市高级职业学校">
+					<div class="content">
+						<img class="img" src="./img/10.jpg" />
+						<h2 class="content-title">1949</h2>
+						<p class="content-desc">
+							1949年芜湖高级商业职业学校与芜湖工业学校、芜湖农业学校合并为芜湖市高级职业学校。
+						</p>
+					</div>
+				</div>
 
-            <div class="item" data-text="皖南区芜湖市中级商业技术学校">
-                <div class="content">
-                    <img class="img" src="./img/11.jpg" />
-                    <h2 class="content-title">1951</h2>
-                    <p class="content-desc">
-                        1951年芜湖市高级职业学校分设为皖南区芜湖市中级商业技术学校、皖南区芜湖市中级工业技术学校和皖南区芜湖市中级农业技术学校。
-                    </p>
-                </div>
-            </div>
+				<div class="item" data-text="皖南区芜湖市中级商业技术学校">
+					<div class="content">
+						<img class="img" src="./img/11.jpg" />
+						<h2 class="content-title">1951</h2>
+						<p class="content-desc">
+							1951年芜湖市高级职业学校分设为皖南区芜湖市中级商业技术学校、皖南区芜湖市中级工业技术学校和皖南区芜湖市中级农业技术学校。
+						</p>
+					</div>
+				</div>
 
-            <div class="item" data-text="安徽省芜湖商业学校">
-                <div class="content">
-                    <img class="img" src="./img/12.jpg" />
-                    <h2 class="content-title">1952</h2>
-                    <p class="content-desc">
-                        1952年皖南区芜湖市中级商业技术学校更名为安徽省芜湖商业学校。
-                    </p>
-                </div>
-            </div>
+				<div class="item" data-text="安徽省芜湖商业学校">
+					<div class="content">
+						<img class="img" src="./img/12.jpg" />
+						<h2 class="content-title">1952</h2>
+						<p class="content-desc">
+							1952年皖南区芜湖市中级商业技术学校更名为安徽省芜湖商业学校。
+						</p>
+					</div>
+				</div>
 
-            <div class="item" data-text="安徽商业学校">
-                <div class="content">
-                    <img class="img" src="./img/13.jpg" />
-                    <h2 class="content-title">1961</h2>
-                    <p class="content-desc">
-                        1961年安徽省芜湖商业学校更名为安徽商业学校。
-                    </p>
-                </div>
-            </div>
+				<div class="item" data-text="安徽商业学校">
+					<div class="content">
+						<img class="img" src="./img/13.jpg" />
+						<h2 class="content-title">1961</h2>
+						<p class="content-desc">
+							1961年安徽省芜湖商业学校更名为安徽商业学校。
+						</p>
+					</div>
+				</div>
 
-            <div class="item" data-text="安徽商业职工大学">
-                <div class="content">
-                    <img class="img" src="./img/14.jpg" />
-                    <h2 class="content-title">1984</h2>
-                    <p class="content-desc">
-                        1984年安徽商业职工大学建立(与安徽省商业学校并设)并首届招生
-                    </p>
-                </div>
-            </div>
+				<div class="item" data-text="安徽商业职工大学">
+					<div class="content">
+						<img class="img" src="./img/14.jpg" />
+						<h2 class="content-title">1984</h2>
+						<p class="content-desc">
+							1984年安徽商业职工大学建立(与安徽省商业学校并设)并首届招生
+						</p>
+					</div>
+				</div>
 
-            <div class="item" data-text="安徽商贸职业技术学院">
-                <div class="content">
-                    <img class="img" src="./img/15.jpg" />
-                    <h2 class="content-title">2000</h2>
-                    <p class="content-desc">
-                        2000年6月安徽商业职工大学和安徽省商业学校合并升格为安徽商贸职业技术学院。
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <video id="scroll-btn" poster="./img/16.jpg" controls autoplay loop src="./img/video.mp4"></video>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script>
-        document.addEventListener('touchstart', function (event) {
-            if (event.touches.length > 1) {
-                event.preventDefault();
-            }
-        }, { passive: false });
+				<div class="item" data-text="安徽商贸职业技术学院">
+					<div class="content">
+						<img class="img" src="./img/15.jpg" />
+						<h2 class="content-title">2000</h2>
+						<p class="content-desc">
+							2000年6月安徽商业职工大学和安徽省商业学校合并升格为安徽商贸职业技术学院。
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<video poster="./img/16.jpg" loop autoplay muted style="width: 100%;" src="./img/video.mp4"></video>
+	</div>
 
-        document.addEventListener('gesturestart', function (event) {
-            event.preventDefault();
-        });
 
-        (function ($) {
-            $.fn.timeline = function () {
-                var selectors = {
-                    id: $(this),
-                    item: $(this).find(".item"),
-                    activeClass: "item--active",
-                    img: ".img"
-                };
-                selectors.item.eq(0).addClass(selectors.activeClass);
-                selectors.id.css(
-                    "background-image",
-                    "url(" +
-                    selectors.item
-                        .first()
-                        .find(selectors.img)
-                        .attr("src") +
-                    ")"
-                );
-                var itemLength = selectors.item.length;
-                $(window).scroll(function () {
-                    var max, min;
-                    var pos = $(this).scrollTop();
-                    selectors.item.each(function (i) {
-                        min = $(this).offset().top;
-                        max = $(this).height() + $(this).offset().top;
-                        var that = $(this);
-                        if (i == itemLength - 2 && pos > min + $(this).height() / 2) {
-                            selectors.item.removeClass(selectors.activeClass);
-                            selectors.id.css(
-                                "background-image",
-                                "url(" +
-                                selectors.item
-                                    .last()
-                                    .find(selectors.img)
-                                    .attr("src") +
-                                ")"
-                            );
-                            selectors.item.last().addClass(selectors.activeClass);
-                        }
-                        else if (pos <= max - 10 && pos >= min) {
-                            selectors.id.css(
-                                "background-image",
-                                "url(" +
-                                $(this)
-                                    .find(selectors.img)
-                                    .attr("src") +
-                                ")"
-                            );
-                            selectors.item.removeClass(selectors.activeClass);
-                            $(this).addClass(selectors.activeClass);
-                        }
-                    });
-                });
 
-                var autoScroll = true;
-                var timer = setInterval(scrollToNext, 1000);
+	<script src="./JQuery.js"></script>
+	<script>
+		var audio = document.getElementsByTagName("audio")[0];
+		var video = document.getElementsByTagName("video")[0];
 
-                function scrollToNext() {
-                    if (autoScroll) {
-                        var index = selectors.item.index(selectors.item.filter('.' + selectors.activeClass));
-                        if (index < itemLength - 1) {
-                            var nextPos = selectors.item.eq(index + 1).offset().top;
-                            $('html, body').animate({ scrollTop: nextPos }, 'slow');
-                        }
-                        else {
-                            autoScroll = false;
-                        }
-                    }
-                }
+		window.onload = function () {
+			audio.play();
+			setTimeout(autoScroll, 2000);
+		};
 
-                $(document).on('click keydown', function () {
-                    autoScroll = false;
-                });
+		document.addEventListener('touchstart', function (event) {
+			if (event.touches.length > 1) {
+				event.preventDefault();
+			}
+		}, {
+			passive: false
+		});
 
-                $(document).on('dblclick', function () {
-                    autoScroll = true;
-                });
+		document.addEventListener('gesturestart', function (event) {
+			event.preventDefault();
+		});
 
-            };
-        })(jQuery)
-        $("#shell").timeline();
-    </script>
+		(function ($) {
+			$.fn.timeline = function () {
+				var selectors = {
+					id: $(this),
+					item: $(this).find(".item"),
+					activeClass: "item--active",
+					img: ".img"
+				};
+
+				selectors.item.eq(0).addClass(selectors.activeClass);
+				selectors.id.css(
+					"background-image",
+					"url(" +
+					selectors.item
+						.first()
+						.find(selectors.img)
+						.attr("src") +
+					")"
+				);
+
+				var itemLength = selectors.item.length;
+
+				$(window).scroll(function () {
+					var max, min;
+					var pos = $(this).scrollTop() + 200;
+					selectors.item.each(function (i) {
+						min = $(this).offset().top;
+						max = $(this).height() + $(this).offset().top;
+						var that = $(this);
+						if (i == itemLength - 2 && pos > min + $(this).height() / 2) {
+							selectors.item.removeClass(selectors.activeClass);
+							selectors.id.css(
+								"background-image",
+								"url(" +
+								selectors.item
+									.last()
+									.find(selectors.img)
+									.attr("src") +
+								")"
+							);
+							selectors.item.last().addClass(selectors.activeClass);
+						} else if (pos <= max - 10 && pos >= min) {
+							selectors.id.css(
+								"background-image",
+								"url(" +
+								$(this)
+									.find(selectors.img)
+									.attr("src") +
+								")"
+							);
+							selectors.item.removeClass(selectors.activeClass);
+							$(this).addClass(selectors.activeClass);
+						}
+					});
+				});
+			};
+		})(jQuery)
+
+		$("#shell").timeline();
+
+		function autoScroll() {
+			var currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
+
+			var scrollSpeed = 1; // 滚动距离
+			var scrollInterval = 3; // 滚动间隔时间
+
+			var scrollTarget = currentScroll + scrollSpeed;
+
+			window.scrollTo(0, scrollTarget);
+
+			// setTimeout(audioPause, 36000);
+
+			if (currentScroll < document.documentElement.scrollHeight) {
+				setTimeout(autoScroll, scrollInterval);
+			}
+
+		}
+
+		// function audioPause() {
+		// 	audio.pause();
+		// 	video.play();
+		// }
+
+		// function videoPause() {
+		// 	audio.play();
+		// 	video.pause();
+		// }
+
+		window.onscroll = function () {
+			var currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
+
+			var totalHeight = document.documentElement.scrollHeight || document.body.scrollHeight;
+			var windowHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+
+			var distanceToBottom = totalHeight - currentScroll - windowHeight;
+
+			if (distanceToBottom <= 0) {
+				window.scrollTo(0, 0);
+			}
+		};
+	</script>
 </body>
 
 </html>
