@@ -1,0 +1,39 @@
+/* 个人技能相关介绍使用 */
+.skillImage {
+    width: auto;
+    height: auto;
+}
+
+.skillGroupImage {
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+}
+
+.skillScollRow {
+    overflow: hidden;
+    margin-bottom: 7px;
+    padding-left: 20px;
+    margin-top: -5px;
+}
+
+.scrollContainer {
+    display: flex;
+    align-items: center;
+}
+
+.scrollContainer img {
+    margin-right: 10px;
+}
+
+.skillInfoRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+.skillInfoRow p {
+    padding: 0;
+    margin: 0;
+}
