@@ -1,5 +1,5 @@
 // 生成首页的技能列表（展开后）
-const skillInfoDiv = document.getElementById("skillInfo");
+const skillInfo = document.getElementById("skillInfo");
 
 fetch("/json/skill.json")
     .then(response => response.json())
@@ -18,7 +18,7 @@ fetch("/json/skill.json")
             </div>
             `;
         });
-        skillInfoDiv.innerHTML = html;
+        skillInfo.innerHTML = html;
 
         const skillRows = document.querySelectorAll(".skillInfoRow");
         skillRows.forEach(row => {
