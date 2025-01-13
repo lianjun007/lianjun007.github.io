@@ -36,7 +36,7 @@
     },
     {
         "id": "ai",
-        "image": "/image/skill/ai/ai.png",
+        "image": "/image/lianjun.png",
         "title": "AI 使用",
         "info": "还没写...",
         "md": "/md/ai.md"
@@ -50,28 +50,28 @@
     },
     {
         "id": "wxdev",
-        "image": "/image/skill/wxdev/wxdev.png",
+        "image": "/image/lianjun.png",
         "title": "微信小程序开发",
         "info": "还没写...",
         "md": "/md/wxdev.md"
     },
     {
         "id": "cut",
-        "image": "/image/skill/cut/cut.png",
+        "image": "/image/lianjun.png",
         "title": "视频剪辑",
         "info": "还没写...",
         "md": "/md/cut.md"
     },
     {
         "id": "office",
-        "image": "/image/skill/office/office.png",
+        "image": "/image/lianjun.png",
         "title": "办公套件",
         "info": "还没写...",
         "md": "/md/office.md"
     },
     {
         "id": "other",
-        "image": "/image/skill/other/other.png",
+        "image": "/image/lianjun.png",
         "title": "其他",
         "info": "还没写...",
         "md": "/md/other.md"

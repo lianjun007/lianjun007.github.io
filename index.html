@@ -63,7 +63,6 @@
         </div>
 
         <!-- 个人技能滚动展示图标区域 -->
-        <script src="/js/skillScroll.js"></script>
         <div class="skillScollRow" id="skillScollRow">
             <div class="scrollContainer" id="skillScollContainer">
                 <img src="/image/skill/iosdev/xcode.png" class="skillImage" style="width: 45px; margin-right: 6px;">
@@ -120,6 +119,7 @@
         <div id="skillInfo" style="display: none;">
             <script src="/js/skillList.js"></script>
         </div>
+        <script src="/js/skillEffect.js"></script>
     </div>
 
     <!-- 展示内容区域 -->
@@ -138,27 +138,6 @@
     </div>
 
     <script src="/js/style.js"></script>
-
-    <script>
-        document.getElementById("skillControl").addEventListener("click", function () {
-            const skillInfo = document.getElementById("skillInfo")
-            const skillScollRow = document.getElementById("skillScollRow");
-            const skillSingle = document.getElementById("skillSingle");
-
-            const icon = this.querySelector(".listRowEndButtonImage");
-            icon.classList.toggle("listRowEndButtonImageRotate");
-
-            if (skillInfo.style.display === "none") {
-                skillInfo.style.display = "block"
-                skillSingle.style.display = "none"
-                skillScollRow.style.display = "none"
-            } else {
-                skillInfo.style.display = "none"
-                skillSingle.style.display = "block"
-                skillScollRow.style.display = "block"
-            };
-        });        
-    </script>
 </body>
 
 </html>

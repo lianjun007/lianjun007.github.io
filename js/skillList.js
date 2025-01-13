@@ -5,9 +5,15 @@ fetch("/json/skill.json")
     .then(response => response.json())
     .then(data => {
         let html = "";
+        let index = 0
         data.forEach(skill => {
+            if (index === 0) {
+                html += "<hr>"
+                index ++
+            } else {
+                html += "<hr style='margin-inline-start: 110px;'>"
+            }
             html += `
-            <hr>
             <div id="${skill.id}" class="skillInfoRow">
                 <img src="${skill.image}" class="skillGroupImage" style="width: 80px;">
                 <div style="width: 100%;">

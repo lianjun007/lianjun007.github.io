@@ -27,3 +27,25 @@ document.addEventListener("DOMContentLoaded", function () {
         scrollSpeed = 0.2;
     });
 });
+
+document.getElementById("skillScollRow").addEventListener("click", clickShowSkillList);
+document.getElementById("skillControl").addEventListener("click", clickShowSkillList);
+
+function clickShowSkillList() {
+    const skillInfo = document.getElementById("skillInfo")
+    const skillScollRow = document.getElementById("skillScollRow");
+    const skillSingle = document.getElementById("skillSingle");
+
+    const icon = document.getElementById("skillControl").querySelector(".listRowEndButtonImage");
+    icon.classList.toggle("listRowEndButtonImageRotate");
+
+    if (skillInfo.style.display === "none") {
+        skillInfo.style.display = "block"
+        skillSingle.style.display = "none"
+        skillScollRow.style.display = "none"
+    } else {
+        skillInfo.style.display = "none"
+        skillSingle.style.display = "block"
+        skillScollRow.style.display = "block"
+    };
+};
