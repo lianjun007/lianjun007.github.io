@@ -1,4 +1,4 @@
-
+// 生成首页的技能列表（展开后）
 const skillInfoDiv = document.getElementById("skillInfo");
 
 fetch("/json/skill.json")
@@ -27,4 +27,4 @@ fetch("/json/skill.json")
                 window.location.assign(`/html/skillContent.html?id=${skillId}`);
             });
         });
-    })
+    });
