@@ -10,6 +10,7 @@ fetch("/json/skill.json")
     .then(response => response.json())
     .then(data => {
         const skill = data.find(skill => skill.id === skillId);
+        document.getElementById("webTitle").textContent = `LianJun > 经历 > ${skill.title}`
         document.getElementById("skillTitle").textContent = skill.title
         document.getElementById("skillImage").src = skill.image
         document.getElementById("skillInfo").textContent = skill.info
