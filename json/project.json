@@ -4,7 +4,7 @@
         "date": "2021年",
         "image": "/image/lianjun.png",
         "title": "绘言杀 HuiYanKill",
-        "info": "无名杀项目",
+        "info": "无名杀项目，后续使用 UIKit 开发，然后使用 Godot 重构，暂时搁置。",
         "md": "/md/project/huiyankill.md"
     },
     {
@@ -12,7 +12,7 @@
         "date": "2022年",
         "image": "/image/lianjun.png",
         "title": "论坛 LearnTime",
-        "info": "没有写...",
+        "info": "用户自部署 NAS 笔记软件，SwiftUI 重构中...",
         "md": "/md/project/learntime.md"
     },
     {
@@ -20,7 +20,7 @@
         "date": "2024年1月",
         "image": "/image/lianjun.png",
         "title": "目录树 DirectoryTree",
-        "info": "没有写...",
+        "info": "Python 写的目录树备份软件。",
         "md": "/md/project/directorytree.md"
     },
     {
@@ -28,15 +28,23 @@
         "date": "2024年9月至2024年11月",
         "image": "/image/project/gowow.png",
         "title": "取物 GoWow",
-        "info": "没有写...",
+        "info": "用户自部署 NAS 商城，较为完善，也顺便充当了毕业设计。",
         "md": "/md/project/gowow.md"
+    },
+    {
+        "id": "shineset",
+        "date": "2024年9月至2024年11月",
+        "image": "/image/lianjun.png",
+        "title": "闪光集 ShineSet",
+        "info": "用户自部署 NAS 相册，开发初期...",
+        "md": "/md/project/shineset.md"
     },
     {
         "id": "zalbumsynctool",
         "date": "2024年12月",
         "image": "/image/lianjun.png",
         "title": "极相册同步工具 ZalbumSyncTool",
-        "info": "没有写...",
+        "info": "极相册（极空间的附属功能）的同步工具，用于解决极相册备份的实况照片视频部分被隐藏造成的一系列麻烦。",
         "md": "/md/project/zalbumsynctool.md"
     }
 ]

@@ -56,6 +56,13 @@
         "md": "/md/wxdev.md"
     },
     {
+        "id": "gamedev",
+        "image": "/image/lianjun.png",
+        "title": "游戏开发",
+        "info": "Godot 等工具使用",
+        "md": "/md/wxdev.md"
+    },
+    {
         "id": "cut",
         "image": "/image/lianjun.png",
         "title": "视频剪辑",
@@ -66,7 +73,7 @@
         "id": "office",
         "image": "/image/lianjun.png",
         "title": "办公套件",
-        "info": "还没写...",
+        "info": "凑数的，大伙都会用。",
         "md": "/md/office.md"
     },
     {

@@ -21,6 +21,14 @@
     font-size: 17px;
     margin: 10px 0;
     color: #919195;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.noOverflowRightText {
+    font-size: 17px;
+    margin: 10px 0;
+    color: #919195;
 }
 
 .subText {
@@ -33,6 +41,8 @@
     font-size: 15px;
     margin: 0;
     color: #919195;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .captionTop {
