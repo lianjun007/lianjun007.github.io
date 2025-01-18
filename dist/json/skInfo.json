@@ -1,0 +1,86 @@
+[
+    {
+        "id": "iosdev",
+        "image": "/image/skill/iosdev/iosdev.png",
+        "title": "iOS 开发",
+        "info": "最擅长的技能，从 2022 年开始学习 Swift 语言，然后接触 UIKit、SwiftUI、SwiftData 等技术，算是我的“编程母语”了，写起来也算是比较熟练。",
+        "md": "/md/iosdev.md"
+    },
+    {
+        "id": "webdev",
+        "image": "/image/skill/webdev/webdev.png",
+        "title": "前端开发",
+        "info": "还没写...",
+        "md": "/md/webdev.md"
+    },
+    {
+        "id": "uidesign",
+        "image": "/image/skill/uidesign/uidesign.png",
+        "title": "UI 设计",
+        "info": "还没写...",
+        "md": "/md/uidesign.md"
+    },
+    {
+        "id": "nas",
+        "image": "/image/skill/nas/nas.png",
+        "title": "NAS 研究",
+        "info": "还没写...",
+        "md": "/md/nas.md"
+    },
+    {
+        "id": "server",
+        "image": "/image/skill/server/server.png",
+        "title": "后端开发",
+        "info": "还没写...",
+        "md": "/md/server.md"
+    },
+    {
+        "id": "ai",
+        "image": "/image/lianjun.png",
+        "title": "AI 使用",
+        "info": "还没写...",
+        "md": "/md/ai.md"
+    },
+    {
+        "id": "py",
+        "image": "/image/skill/py/py.png",
+        "title": "Python",
+        "info": "还没写...",
+        "md": "/md/py.md"
+    },
+    {
+        "id": "wxdev",
+        "image": "/image/lianjun.png",
+        "title": "微信小程序开发",
+        "info": "还没写...",
+        "md": "/md/wxdev.md"
+    },
+    {
+        "id": "gamedev",
+        "image": "/image/lianjun.png",
+        "title": "游戏开发",
+        "info": "Godot 等工具使用",
+        "md": "/md/wxdev.md"
+    },
+    {
+        "id": "cut",
+        "image": "/image/lianjun.png",
+        "title": "视频剪辑",
+        "info": "还没写...",
+        "md": "/md/cut.md"
+    },
+    {
+        "id": "office",
+        "image": "/image/lianjun.png",
+        "title": "办公套件",
+        "info": "凑数的，大伙都会用。",
+        "md": "/md/office.md"
+    },
+    {
+        "id": "other",
+        "image": "/image/lianjun.png",
+        "title": "其他",
+        "info": "还没写...",
+        "md": "/md/other.md"
+    }
+]

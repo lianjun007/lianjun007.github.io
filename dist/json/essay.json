@@ -1,0 +1,362 @@
+[
+    {
+        "id": "codehelper",
+        "createDate": "2021-05-15",
+        "updateDate": "2023-05-20",
+        "image": "/essay/lianjun.png",
+        "title": "代码助手 CodeHelper",
+        "info": "一款辅助程序员编写代码的工具，最初使用 Python 开发部分功能，后用 Java 进行整体架构优化，目前处于持续更新中，增加更多智能代码补全和代码分析功能。",
+        "md": "7.md"
+    },
+    {
+        "id": "musicplayer",
+        "createDate": "2023-07-10",
+        "updateDate": "2023-12-05",
+        "image": "/essay/lianjun.png",
+        "title": "音乐播放器 MusicPlayer",
+        "info": "基于 Flutter 开发的跨平台音乐播放器，支持多种音频格式，具备个性化的播放列表管理和音效调节功能，正在进行性能优化和界面美化。",
+        "md": "8.md"
+    },
+    {
+        "id": "drawingapp",
+        "createDate": "2024-02-10",
+        "updateDate": "2024-03-15",
+        "image": "/essay/lianjun.png",
+        "title": "绘图应用 DrawingApp",
+        "info": "使用 HTML5 Canvas 开发的在线绘图应用，用户可以自由绘制图形、添加文字和色彩填充，后续计划添加更多绘图工具和素材库。",
+        "md": "9.md"
+    },
+    {
+        "id": "fitnessapp",
+        "createDate": "2024-03-20",
+        "updateDate": "2024-05-01",
+        "image": "/essay/lianjun.png",
+        "title": "健身应用 FitnessApp",
+        "info": "一款专注于健身计划制定和运动记录的移动应用，采用 React Native 开发，集成了运动数据追踪和饮食建议功能，目前在完善社交互动模块。",
+        "md": "10.md"
+    },
+    {
+        "id": "bookreader",
+        "createDate": "2024-04-05",
+        "updateDate": "2024-06-10",
+        "image": "/essay/lianjun.png",
+        "title": "电子书阅读器 BookReader",
+        "info": "基于 Android 原生开发的电子书阅读器，支持多种电子书格式，拥有护眼模式和书签管理功能，正在优化翻页效果和加载速度。",
+        "md": "11.md"
+    },
+    {
+        "id": "translator",
+        "createDate": "2024-05-12",
+        "updateDate": "2024-07-20",
+        "image": "/essay/lianjun.png",
+        "title": "翻译工具 Translator",
+        "info": "使用 Node.js 开发的在线翻译工具，支持多种语言互译，结合了多个翻译 API，目前在提高翻译准确性和添加离线翻译功能。",
+        "md": "12.md"
+    },
+    {
+        "id": "photoshop",
+        "createDate": "2024-06-08",
+        "updateDate": "2024-08-15",
+        "image": "/essay/lianjun.png",
+        "title": "图片处理软件 PhotoShop",
+        "info": "基于 C++ 开发的轻量级图片处理软件，提供基本的图片编辑、裁剪、调色等功能，后续打算增加图像特效和批量处理功能。",
+        "md": "13.md"
+    },
+    {
+        "id": "taskmanager",
+        "createDate": "2024-07-15",
+        "updateDate": "2024-09-01",
+        "image": "/essay/lianjun.png",
+        "title": "任务管理工具 TaskManager",
+        "info": "采用 Vue.js 开发的网页版任务管理工具，方便用户创建、安排和跟踪任务，当前正在开发任务优先级排序和提醒功能。",
+        "md": "14.md"
+    },
+    {
+        "id": "calendarmaker",
+        "createDate": "2024-08-20",
+        "updateDate": "2024-10-10",
+        "image": "/essay/lianjun.png",
+        "title": "日历制作工具 CalendarMaker",
+        "info": "用 Python 和 Tkinter 开发的桌面日历制作工具，用户可以自定义日历样式和添加重要日期标记，下一步计划支持日历导出和共享功能。",
+        "md": "15.md"
+    },
+    {
+        "id": "passwordmanager",
+        "createDate": "2024-09-25",
+        "updateDate": "2024-11-20",
+        "image": "/essay/lianjun.png",
+        "title": "密码管理工具 PasswordManager",
+        "info": "使用 Java 和 SQLite 开发的本地密码管理工具，具备密码加密存储和自动填充功能，目前在加强安全防护和优化用户界面。",
+        "md": "16.md"
+    },
+    {
+        "id": "videoplayer",
+        "createDate": "2024-10-18",
+        "updateDate": "2024-12-05",
+        "image": "/essay/lianjun.png",
+        "title": "视频播放器 VideoPlayer",
+        "info": "基于 Electron 开发的跨平台视频播放器，支持多种视频格式和字幕加载，正在开发视频剪辑和倍速播放功能。",
+        "md": "17.md"
+    },
+    {
+        "id": "notetaker",
+        "createDate": "2024-11-05",
+        "updateDate": "2025-01-01",
+        "image": "/essay/lianjun.png",
+        "title": "笔记应用 NoteTaker",
+        "info": "采用 Swift 开发的 iOS 笔记应用，支持文字、图片和语音记录，后续计划添加笔记分类和搜索功能。",
+        "md": "18.md"
+    },
+    {
+        "id": "weatherapp",
+        "createDate": "2024-12-10",
+        "updateDate": "2025-02-01",
+        "image": "/essay/lianjun.png",
+        "title": "天气应用 WeatherApp",
+        "info": "使用 React 和 Redux 开发的网页天气应用，实时获取天气数据并展示，目前在优化界面布局和添加生活指数功能。",
+        "md": "19.md"
+    },
+    {
+        "id": "ecommerceplatform",
+        "createDate": "2025-01-05",
+        "updateDate": "2025-03-01",
+        "image": "/essay/lianjun.png",
+        "title": "电商平台 EcommercePlatform",
+        "info": "基于 PHP 和 MySQL 开发的电商平台，提供商品展示、购物车和支付功能，正在完善商家入驻和订单管理系统。",
+        "md": "20.md"
+    },
+    {
+        "id": "mapapp",
+        "createDate": "2025-02-10",
+        "updateDate": "2025-04-01",
+        "image": "/essay/lianjun.png",
+        "title": "地图应用 MapApp",
+        "info": "使用 Android Studio 和 Google Maps API 开发的 Android 地图应用，提供导航和地点搜索功能，后续将增加路况信息和公交查询功能。",
+        "md": "21.md"
+    },
+    {
+        "id": "mediaserver",
+        "createDate": "2025-03-15",
+        "updateDate": "2025-05-01",
+        "image": "/essay/lianjun.png",
+        "title": "媒体服务器 MediaServer",
+        "info": "用 Go 语言开发的媒体服务器软件，支持视频、音乐等媒体文件的存储和共享，目前在优化传输速度和稳定性。",
+        "md": "22.md"
+    },
+    {
+        "id": "stocktracker",
+        "createDate": "2025-04-20",
+        "updateDate": "2025-06-01",
+        "image": "/essay/lianjun.png",
+        "title": "股票跟踪工具 StockTracker",
+        "info": "基于 Python 和 Pandas 开发的股票数据跟踪工具，实时获取股票行情并进行分析，正在开发股票预警和投资建议功能。",
+        "md": "23.md"
+    },
+    {
+        "id": "languagelearningapp",
+        "createDate": "2025-05-25",
+        "updateDate": "2025-07-01",
+        "image": "/essay/lianjun.png",
+        "title": "语言学习应用 LanguageLearningApp",
+        "info": "使用 Flutter 开发的多语言学习应用，提供课程学习、单词记忆和口语练习功能，目前在丰富课程内容和优化学习体验。",
+        "md": "24.md"
+    },
+    {
+        "id": "projectmanagementtool",
+        "createDate": "2025-06-30",
+        "updateDate": "2025-08-01",
+        "image": "/essay/lianjun.png",
+        "title": "项目管理工具 ProjectManagementTool",
+        "info": "采用 Angular 开发的网页版项目管理工具，支持项目计划制定、任务分配和进度跟踪，正在完善团队协作和文档管理功能。",
+        "md": "25.md"
+    },
+    {
+        "id": "healthmonitor",
+        "createDate": "2025-07-05",
+        "updateDate": "2025-09-01",
+        "image": "/essay/lianjun.png",
+        "title": "健康监测应用 HealthMonitor",
+        "info": "使用 React Native 和蓝牙技术开发的健康监测应用，可连接智能手环等设备获取健康数据，当前在优化数据准确性和增加健康建议功能。",
+        "md": "26.md"
+    },
+    {
+        "id": "codehelper",
+        "createDate": "2021-05-15",
+        "updateDate": "2023-05-20",
+        "image": "/essay/lianjun.png",
+        "title": "代码助手 CodeHelper",
+        "info": "一款辅助程序员编写代码的工具，最初使用 Python 开发部分功能，后用 Java 进行整体架构优化，目前处于持续更新中，增加更多智能代码补全和代码分析功能。",
+        "md": "7.md"
+    },
+    {
+        "id": "musicplayer",
+        "createDate": "2023-07-10",
+        "updateDate": "2023-12-05",
+        "image": "/essay/lianjun.png",
+        "title": "音乐播放器 MusicPlayer",
+        "info": "基于 Flutter 开发的跨平台音乐播放器，支持多种音频格式，具备个性化的播放列表管理和音效调节功能，正在进行性能优化和界面美化。",
+        "md": "8.md"
+    },
+    {
+        "id": "drawingapp",
+        "createDate": "2024-02-10",
+        "updateDate": "2024-03-15",
+        "image": "/essay/lianjun.png",
+        "title": "绘图应用 DrawingApp",
+        "info": "使用 HTML5 Canvas 开发的在线绘图应用，用户可以自由绘制图形、添加文字和色彩填充，后续计划添加更多绘图工具和素材库。",
+        "md": "9.md"
+    },
+    {
+        "id": "fitnessapp",
+        "createDate": "2024-03-20",
+        "updateDate": "2024-05-01",
+        "image": "/essay/lianjun.png",
+        "title": "健身应用 FitnessApp",
+        "info": "一款专注于健身计划制定和运动记录的移动应用，采用 React Native 开发，集成了运动数据追踪和饮食建议功能，目前在完善社交互动模块。",
+        "md": "10.md"
+    },
+    {
+        "id": "bookreader",
+        "createDate": "2024-04-05",
+        "updateDate": "2024-06-10",
+        "image": "/essay/lianjun.png",
+        "title": "电子书阅读器 BookReader",
+        "info": "基于 Android 原生开发的电子书阅读器，支持多种电子书格式，拥有护眼模式和书签管理功能，正在优化翻页效果和加载速度。",
+        "md": "11.md"
+    },
+    {
+        "id": "translator",
+        "createDate": "2024-05-12",
+        "updateDate": "2024-07-20",
+        "image": "/essay/lianjun.png",
+        "title": "翻译工具 Translator",
+        "info": "使用 Node.js 开发的在线翻译工具，支持多种语言互译，结合了多个翻译 API，目前在提高翻译准确性和添加离线翻译功能。",
+        "md": "12.md"
+    },
+    {
+        "id": "photoshop",
+        "createDate": "2024-06-08",
+        "updateDate": "2024-08-15",
+        "image": "/essay/lianjun.png",
+        "title": "图片处理软件 PhotoShop",
+        "info": "基于 C++ 开发的轻量级图片处理软件，提供基本的图片编辑、裁剪、调色等功能，后续打算增加图像特效和批量处理功能。",
+        "md": "13.md"
+    },
+    {
+        "id": "taskmanager",
+        "createDate": "2024-07-15",
+        "updateDate": "2024-09-01",
+        "image": "/essay/lianjun.png",
+        "title": "任务管理工具 TaskManager",
+        "info": "采用 Vue.js 开发的网页版任务管理工具，方便用户创建、安排和跟踪任务，当前正在开发任务优先级排序和提醒功能。",
+        "md": "14.md"
+    },
+    {
+        "id": "calendarmaker",
+        "createDate": "2024-08-20",
+        "updateDate": "2024-10-10",
+        "image": "/essay/lianjun.png",
+        "title": "日历制作工具 CalendarMaker",
+        "info": "用 Python 和 Tkinter 开发的桌面日历制作工具，用户可以自定义日历样式和添加重要日期标记，下一步计划支持日历导出和共享功能。",
+        "md": "15.md"
+    },
+    {
+        "id": "passwordmanager",
+        "createDate": "2024-09-25",
+        "updateDate": "2024-11-20",
+        "image": "/essay/lianjun.png",
+        "title": "密码管理工具 PasswordManager",
+        "info": "使用 Java 和 SQLite 开发的本地密码管理工具，具备密码加密存储和自动填充功能，目前在加强安全防护和优化用户界面。",
+        "md": "16.md"
+    },
+    {
+        "id": "videoplayer",
+        "createDate": "2024-10-18",
+        "updateDate": "2024-12-05",
+        "image": "/essay/lianjun.png",
+        "title": "视频播放器 VideoPlayer",
+        "info": "基于 Electron 开发的跨平台视频播放器，支持多种视频格式和字幕加载，正在开发视频剪辑和倍速播放功能。",
+        "md": "17.md"
+    },
+    {
+        "id": "notetaker",
+        "createDate": "2024-11-05",
+        "updateDate": "2025-01-01",
+        "image": "/essay/lianjun.png",
+        "title": "笔记应用 NoteTaker",
+        "info": "采用 Swift 开发的 iOS 笔记应用，支持文字、图片和语音记录，后续计划添加笔记分类和搜索功能。",
+        "md": "18.md"
+    },
+    {
+        "id": "weatherapp",
+        "createDate": "2024-12-10",
+        "updateDate": "2025-02-01",
+        "image": "/essay/lianjun.png",
+        "title": "天气应用 WeatherApp",
+        "info": "使用 React 和 Redux 开发的网页天气应用，实时获取天气数据并展示，目前在优化界面布局和添加生活指数功能。",
+        "md": "19.md"
+    },
+    {
+        "id": "ecommerceplatform",
+        "createDate": "2025-01-05",
+        "updateDate": "2025-03-01",
+        "image": "/essay/lianjun.png",
+        "title": "电商平台 EcommercePlatform",
+        "info": "基于 PHP 和 MySQL 开发的电商平台，提供商品展示、购物车和支付功能，正在完善商家入驻和订单管理系统。",
+        "md": "20.md"
+    },
+    {
+        "id": "mapapp",
+        "createDate": "2025-02-10",
+        "updateDate": "2025-04-01",
+        "image": "/essay/lianjun.png",
+        "title": "地图应用 MapApp",
+        "info": "使用 Android Studio 和 Google Maps API 开发的 Android 地图应用，提供导航和地点搜索功能，后续将增加路况信息和公交查询功能。",
+        "md": "21.md"
+    },
+    {
+        "id": "mediaserver",
+        "createDate": "2025-03-15",
+        "updateDate": "2025-05-01",
+        "image": "/essay/lianjun.png",
+        "title": "媒体服务器 MediaServer",
+        "info": "用 Go 语言开发的媒体服务器软件，支持视频、音乐等媒体文件的存储和共享，目前在优化传输速度和稳定性。",
+        "md": "22.md"
+    },
+    {
+        "id": "stocktracker",
+        "createDate": "2025-04-20",
+        "updateDate": "2025-06-01",
+        "image": "/essay/lianjun.png",
+        "title": "股票跟踪工具 StockTracker",
+        "info": "基于 Python 和 Pandas 开发的股票数据跟踪工具，实时获取股票行情并进行分析，正在开发股票预警和投资建议功能。",
+        "md": "23.md"
+    },
+    {
+        "id": "languagelearningapp",
+        "createDate": "2025-05-25",
+        "updateDate": "2025-07-01",
+        "image": "/essay/lianjun.png",
+        "title": "语言学习应用 LanguageLearningApp",
+        "info": "使用 Flutter 开发的多语言学习应用，提供课程学习、单词记忆和口语练习功能，目前在丰富课程内容和优化学习体验。",
+        "md": "24.md"
+    },
+    {
+        "id": "projectmanagementtool",
+        "createDate": "2025-06-30",
+        "updateDate": "2025-08-01",
+        "image": "/essay/lianjun.png",
+        "title": "项目管理工具 ProjectManagementTool",
+        "info": "采用 Angular 开发的网页版项目管理工具，支持项目计划制定、任务分配和进度跟踪，正在完善团队协作和文档管理功能。",
+        "md": "25.md"
+    },
+    {
+        "id": "healthmonitor",
+        "createDate": "2025-07-05",
+        "updateDate": "2025-09-01",
+        "image": "/essay/lianjun.png",
+        "title": "健康监测应用 HealthMonitor",
+        "info": "使用 React Native 和蓝牙技术开发的健康监测应用，可连接智能手环等设备获取健康数据，当前在优化数据准确性和增加健康建议功能。",
+        "md": "26.md"
+    }
+]
