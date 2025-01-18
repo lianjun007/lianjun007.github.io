@@ -1,0 +1,199 @@
+[
+    {
+        "info": "XCode",
+        "image": "iosdev/xcode.png",
+        "size": "45",
+        "marginRight": "6"
+    },
+    {
+        "info": "XCode",
+        "image": "iosdev/swift.png",
+        "size": "40",
+        "marginRight": "0"
+    },
+    {
+        "info": "XCode",
+        "image": "iosdev/swiftui.png",
+        "size": "40",
+        "marginRight": "0"
+    },
+    {
+        "info": "XCode",
+        "image": "iosdev/swiftdata.png",
+        "size": "40",
+        "marginRight": "0"
+    },
+    {
+        "info": "XCode",
+        "image": "webdev/vscode.png",
+        "size": "35",
+        "marginRight": "12"
+    },
+    {
+        "info": "XCode",
+        "image": "webdev/html5.png",
+        "size": "36",
+        "marginRight": "0"
+    },
+    {
+        "info": "XCode",
+        "image": "webdev/css3.png",
+        "size": "36",
+        "marginRight": "12"
+    },
+    {
+        "info": "XCode",
+        "image": "webdev/javascript.png",
+        "size": "35",
+        "marginRight": "13"
+    },
+    {
+        "image": "uidesign/axurerp9.png",
+        "size": "37",
+        "marginRight": "14"
+    },
+    {
+        "info": "XCode",
+        "image": "uidesign/figma.png",
+        "size": "36",
+        "marginRight": "0"
+    },
+    {
+        "info": "XCode",
+        "image": "uidesign/sketch.png",
+        "size": "39",
+        "marginRight": "0"
+    },
+    {
+        "info": "XCode",
+        "image": "uidesign/ai.png",
+        "size": "44",
+        "marginRight": "0"
+    },
+    {
+        "info": "XCode",
+        "image": "uidesign/ps.png",
+        "size": "44",
+        "marginRight": "0"
+    },
+    {
+        "info": "XCode",
+        "image": "nas/naslogo.png",
+        "size": "43",
+        "marginRight": "0"
+    },
+    {
+        "image": "nas/zspace.png",
+        "size": "35",
+        "marginRight": "0"
+    },
+    {
+        "info": "XCode",
+        "image": "nas/openwrt.png",
+        "size": "35",
+        "marginRight": "0",
+        "borderRadius": "8"
+    },
+    {
+        "info": "XCode",
+        "image": "nas/synology.png",
+        "size": "41",
+        "marginRight": "0"
+    },
+    {
+        "info": "XCode",
+        "image": "server/docker.png",
+        "size": "40",
+        "marginRight": "0"
+    },
+    {
+        "info": "XCode",
+        "image": "server/nodejs.png",
+        "size": "36",
+        "marginRight": "0"
+    },
+    {
+        "info": "XCode",
+        "image": "server/sqlite.png",
+        "size": "35",
+        "marginRight": "0"
+    },
+    {
+        "info": "XCode",
+        "image": "server/termius.png",
+        "size": "35",
+        "marginRight": "0"
+    },
+    {
+        "info": "XCode",
+        "image": "ai/chatgpt.png",
+        "size": "36",
+        "marginRight": "0"
+    },
+    {
+        "info": "XCode",
+        "image": "ai/mscopilot.png",
+        "size": "36",
+        "marginRight": "12"
+    },
+    {
+        "info": "XCode",
+        "image": "ai/doubao.png",
+        "size": "36",
+        "marginRight": "0"
+    },
+    {
+        "info": "XCode",
+        "image": "ai/stablediffusion.png",
+        "size": "36",
+        "marginRight": "0"
+    },
+    {
+        "info": "XCode",
+        "image": "py/pycharm.png",
+        "size": "40",
+        "marginRight": "0"
+    },
+    {
+        "info": "XCode",
+        "image": "py/python.png",
+        "size": "40",
+        "marginRight": "0"
+    },
+    {
+        "info": "XCode",
+        "image": "wxdev/wxtool.png",
+        "size": "36",
+        "marginRight": "0"
+    },
+    {
+        "info": "XCode",
+        "image": "office/obsidian.png",
+        "size": "36",
+        "marginRight": "12"
+    },
+    {
+        "info": "XCode",
+        "image": "office/excel.png",
+        "size": "36",
+        "marginRight": "12"
+    },
+    {
+        "info": "XCode",
+        "image": "office/ppt.png",
+        "size": "36",
+        "marginRight": "12"
+    },
+    {
+        "info": "XCode",
+        "image": "office/word.png",
+        "size": "36",
+        "marginRight": "12"
+    },
+    {
+        "info": "XCode",
+        "image": "other/markdown.png",
+        "size": "36",
+        "marginRight": "0"
+    }
+]

@@ -1,0 +1,15 @@
+{
+    "name": "LianJun 主页",
+    "short_name": "LianJun",
+    "start_url": "http://192.168.31.40:5500/LianJun/dist/index.html",
+    "display": "standalone",
+    "background_color": "#fff",
+    "theme_color": "#fff",
+    "icons": [
+        {
+            "src": "http://192.168.31.40:5500/LianJun/dist/image/lianjun.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
+} 
