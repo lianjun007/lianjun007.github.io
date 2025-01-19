@@ -2,21 +2,25 @@
     {
         "name": "哔哩哔哩",
         "link": "https://space.bilibili.com/287368484?spm_id_from=333.1007.0.0",
-        "image": "bilibili.png"
+        "image": "bilibili1.png",
+        "padding": "1"
     },
     {
         "name": "抖音",
         "link": "hhttps://v.douyin.com/iyp2FA8u/",
-        "image": "tiktok.png"
+        "image": "tiktok1.png",
+        "padding": "3"
     },
     {
         "name": "邮箱",
         "link": "mailto:lianjun.new@outlook.com",
-        "image": "mail.png"
+        "image": "mail1.png",
+        "padding": "0"
     },
     {
         "name": "Github",
         "link": "https://github.com/lianjun007",
-        "image": "github.png"
+        "image": "github1.png",
+        "padding": "0"
     }
 ]

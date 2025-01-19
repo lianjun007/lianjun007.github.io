@@ -1,56 +1,50 @@
 [
     {
-        "id": "huiyankill",
         "createDate": "2021-03-02",
         "updateDate": "2023-01-16",
         "image": "/project/lianjun.png",
         "title": "绘言杀 HuiYanKill",
         "info": "无名杀项目，后续使用 UIKit 开发，然后使用 Godot 重构，暂时搁置。",
-        "md": "1.md"
+        "tag": ["项目", "无限期搁置"]
     },
     {
-        "id": "learntime",
         "createDate": "2023-06-01",
         "updateDate": "2023-10-01",
         "image": "/project/lianjun.png",
         "title": "论坛 LearnTime",
         "info": "用户自部署 NAS 笔记软件，SwiftUI 重构中...",
-        "md": "2.md"
+        "tag": ["项目", "开源", "重构", "暂时搁置"]
     },
     {
-        "id": "directorytree",
         "createDate": "2024-01-01",
         "updateDate": "2024-01-02",
         "image": "/project/lianjun.png",
         "title": "目录树 DirectoryTree",
         "info": "Python 写的目录树备份软件。",
-        "md": "3.md"
+        "tag": ["项目", "v1.0.0", "暂时搁置"]
     },
     {
-        "id": "gowow",
         "createDate": "2024-09-04",
         "updateDate": "2024-11-10",
         "image": "/project/gowow.png",
         "title": "取物 GoWow",
         "info": "用户自部署 NAS 商城，较为完善，也顺便充当了毕业设计。",
-        "md": "4.md"
+        "tag": ["项目", "半成品", "毕业设计", "暂时搁置"]
     },
     {
-        "id": "shineset",
         "createDate": "2024-11-12",
         "updateDate": "2024-11-18",
         "image": "/project/lianjun.png",
         "title": "闪光集 ShineSet",
         "info": "用户自部署 NAS 相册，开发初期...",
-        "md": "5.md"
+        "tag": ["项目", "计划中"]
     },
     {
-        "id": "zalbumsynctool",
         "createDate": "2024-12-20",
         "updateDate": "2024-01-14",
         "image": "/project/lianjun.png",
         "title": "极相册同步工具 ZalbumSyncTool",
         "info": "极相册（极空间的附属功能）的同步工具，用于解决极相册备份的实况照片视频部分被隐藏造成的一系列麻烦。",
-        "md": "6.md"
+        "tag": ["项目", "v1.0.0", "开源"]
     }
 ]
