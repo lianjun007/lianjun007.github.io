@@ -1,74 +1,74 @@
 [
     {
-        "id": "iosdev",
         "image": "/skill/iosdev/iosdev.png",
         "title": "iOS 开发",
-        "info": "最擅长的技能，从 2022 年开始学习 Swift 语言，然后接触 UIKit、SwiftUI、SwiftData 等技术，算是我的“编程母语”了，写起来也算是比较熟练。"
+        "info": "最擅长的技能，从 2022 年开始学习 Swift 语言，然后接触 UIKit、SwiftUI、SwiftData 等技术，算是我的“编程母语”了，写起来也算是比较熟练。",
+        "type": "skill" 
     },
     {
-        "id": "webdev",
         "image": "/skill/webdev/webdev.png",
         "title": "前端开发",
-        "info": "还没写..."
+        "info": "还没写...",
+        "type": "skill" 
     },
     {
-        "id": "uidesign",
         "image": "/skill/uidesign/uidesign.png",
         "title": "UI 设计",
-        "info": "还没写..."
+        "info": "还没写...",
+        "type": "skill" 
     },
     {
-        "id": "nas",
         "image": "/skill/nas/nas.png",
         "title": "NAS 研究",
-        "info": "还没写..."
+        "info": "还没写...",
+        "type": "skill" 
     },
     {
-        "id": "server",
         "image": "/skill/server/server.png",
         "title": "后端开发",
-        "info": "还没写..."
+        "info": "还没写...",
+        "type": "skill" 
     },
     {
-        "id": "ai",
         "image": "/lianjun.png",
         "title": "AI 使用",
-        "info": "还没写..."
+        "info": "还没写...",
+        "type": "skill" 
     },
     {
-        "id": "py",
         "image": "/skill/py/py.png",
         "title": "Python",
-        "info": "还没写..."
+        "info": "还没写...",
+        "type": "skill" 
     },
     {
-        "id": "wxdev",
         "image": "/lianjun.png",
         "title": "微信小程序开发",
-        "info": "还没写..."
+        "info": "还没写...",
+        "type": "skill" 
     },
     {
-        "id": "gamedev",
         "image": "/lianjun.png",
         "title": "游戏开发",
-        "info": "Godot 等工具使用"
+        "info": "Godot 等工具使用",
+        "type": "skill" 
     },
     {
-        "id": "cut",
         "image": "/lianjun.png",
         "title": "视频剪辑",
-        "info": "还没写..."
+        "info": "还没写...",
+        "type": "skill" 
     },
     {
-        "id": "office",
         "image": "/lianjun.png",
         "title": "办公套件",
-        "info": "凑数的，大伙都会用。"
+        "info": "凑数的，大伙都会用。",
+        "type": "skill" 
     },
     {
-        "id": "other",
         "image": "/lianjun.png",
         "title": "其他",
-        "info": "还没写..."
+        "info": "还没写...",
+        "type": "skill" 
     }
 ]
