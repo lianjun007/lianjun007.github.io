@@ -1,7 +1,7 @@
 {
     "name": "LianJun 主页",
     "short_name": "LianJun",
-    "start_url": "/index.html",
+    "start_url": "/",
     "display": "standalone",
     "background_color": "#fff",
     "theme_color": "#fff",
