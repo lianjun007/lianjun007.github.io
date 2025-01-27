@@ -3,24 +3,28 @@
         "name": "哔哩哔哩",
         "link": "https://space.bilibili.com/287368484?spm_id_from=333.1007.0.0",
         "image": "bilibili1.png",
-        "padding": "1"
+        "padding": "1",
+        "color": "#FF5A90"
     },
     {
         "name": "抖音",
-        "link": "hhttps://v.douyin.com/iyp2FA8u/",
+        "link": "https://v.douyin.com/iyp2FA8u/",
         "image": "tiktok1.png",
-        "padding": "3"
+        "padding": "2.5",
+        "color": "#000000"
     },
     {
         "name": "邮箱",
         "link": "mailto:lianjun.new@outlook.com",
         "image": "mail1.png",
-        "padding": "0"
+        "padding": "0",
+        "color": "#2D7FF2"
     },
     {
         "name": "Github",
         "link": "https://github.com/lianjun007",
         "image": "github1.png",
-        "padding": "0"
+        "padding": "0",
+        "color": "#000000"
     }
 ]
