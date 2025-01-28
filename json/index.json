@@ -355,11 +355,10 @@
         "video",
         {
             "createDate": "2024-09-01",
-            "updateDate": "2024-09-01",
             "image": "/video/1.jpg",
             "title": "飞牛私有云系统首发评测",
             "view": "cover",
-            "path": "/project/飞牛私有云系统首发评测.md",
+            "path": "/video/飞牛私有云系统首发评测.md",
             "info": "飞牛私有云系统评测，是系统出了第一天就测试的，后续也有小版本更新，不过不影响。",
             "tag": [
                 "视频",
@@ -371,11 +370,10 @@
         },
         {
             "createDate": "2025-1-15",
-            "updateDate": "2025-1-15",
             "image": "/video/2.jpg",
             "view": "cover",
             "title": "极相册同步工具 v1.0.0 官方教程",
-            "path": "/project/极相册同步工具 v1.0.0 官方教程.md",
+            "path": "/video/极相册同步工具 v1.0.0 官方教程.md",
             "info": "没有写...",
             "tag": [
                 "视频",
