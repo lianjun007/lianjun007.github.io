@@ -50,4 +50,3 @@ print(f"{user2.name}的推荐课程是: {recommended_course2}")
 无论你是想提升自己的职业技能，还是培养新的兴趣爱好，LearnTime 都能满足你的需求。我们的目标是让每一位学习者都能在轻松愉快的氛围中，实现知识的积累和能力的提升。
 
 快来加入 LearnTime，开启属于你的高效学习之旅，用知识武装自己，书写属于你的精彩未来！
-![LearnTime 学习平台界面](https://example.com/learntime_interface.jpg) 

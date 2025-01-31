@@ -3,7 +3,7 @@
         "image": "/skill/iosdev/iosdev.png",
         "title": "iOS 开发",
         "info": "最擅长的技能，从 2022 年开始学习 Swift 语言，然后接触 UIKit、SwiftUI、SwiftData 等技术，算是我的“编程母语”了，写起来也算是比较熟练。",
-        "type": "skill" 
+        "type": "/skill/iOS 开发.md" 
     },
     {
         "image": "/skill/webdev/webdev.png",

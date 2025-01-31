@@ -2,15 +2,15 @@
     "文章": [
         "essay",
         {
-            "title": "CSS 笔记",
+            "path": "/essay/CSS 笔记",
             "view": "set",
+            "info": "没有写...",
             "createDate": "2023-01-01",
             "image": "/skill/webdev/css3.png",
             "tag": ["教程与笔记", "CSS"],
             "sub": [
                 {
-                    "title": "边框 Border",
-                    "path": "/essay/边框 Border.md",
+                    "path": "/边框 Border.md",
                     "isShow": true,
                     "view": "essay",
                     "createDate": "2023-07-10",
@@ -25,8 +25,7 @@
                     ]
                 },
                 {
-                    "title": "尺寸 Width Height",
-                    "path": "/essay/尺寸 Width Height.md",
+                    "path": "/尺寸 Width Height.md",
                     "isShow": true,
                     "view": "essay",
                     "createDate": "2023-07-10",
@@ -41,8 +40,7 @@
                     ]
                 },
                 {
-                    "title": "内外边距",
-                    "path": "/essay/内外边距.md",
+                    "path": "/内外边距.md",
                     "isShow": true,
                     "view": "essay",
                     "createDate": "2023-07-10",
@@ -57,8 +55,7 @@
                     ]
                 },
                 {
-                    "title": "属性值列表生效顺序与简写",
-                    "path": "/essay/属性值列表生效顺序与简写.md",
+                    "path": "/属性值列表生效顺序与简写.md",
                     "isShow": true,
                     "view": "essay",
                     "createDate": "2023-07-10",
@@ -73,8 +70,7 @@
                     ]
                 },
                 {
-                    "title": "选择器 Selector",
-                    "path": "/essay/选择器 Selector.md",
+                    "path": "/选择器 Selector.md",
                     "isShow": true,
                     "view": "essay",
                     "createDate": "2023-07-10",
@@ -89,8 +85,7 @@
                     ]
                 },
                 {
-                    "title": "语法 Grammar",
-                    "path": "/essay/语法 Grammar.md",
+                    "path": "/语法 Grammar.md",
                     "isShow": true,
                     "view": "essay",
                     "createDate": "2023-07-10",
@@ -105,8 +100,7 @@
                     ]
                 },
                 {
-                    "title": "flex布局",
-                    "path": "/essay/flex布局.md",
+                    "path": "/flex布局.md",
                     "isShow": true,
                     "view": "essay",
                     "createDate": "2023-07-10",
@@ -123,15 +117,14 @@
             ]
         },
         {
-            "title": "界王：七千情，生死劫！",
+            "path": "/essay/界王：七千情，生死劫！",
             "view": "set",
             "createDate": "2019-01-01",
-            "tag": ["小说","小说","小说","小说","小说","小说","小说","小说", "原创"],
+            "tag": ["小说", "原创"],
             "info": "小时候写的小说。",
             "set": [
                 {
-                    "title": "1、十六年前的约定",
-                    "path": "/essay/1、十六年前的约定.txt",
+                    "path": "/1、十六年前的约定.txt",
                     "view": "essay",
                     "createDate": "2019-1-1",
                     "tag": [
@@ -140,8 +133,7 @@
                     ]
                 },
                 {
-                    "title": "2、桃花镇",
-                    "path": "/essay/2、桃花镇.txt",
+                    "path": "/2、桃花镇.txt",
                     "view": "essay",
                     "createDate": "2019-1-2",
                     "tag": [
@@ -150,8 +142,7 @@
                     ]
                 },
                 {
-                    "title": "3、妖桃月月",
-                    "path": "/essay/3、妖桃月月.txt",
+                    "path": "/3、妖桃月月.txt",
                     "view": "essay",
                     "createDate": "2019-1-3",
                     "tag": [
@@ -160,8 +151,7 @@
                     ]
                 },
                 {
-                    "title": "4、危难",
-                    "path": "/essay/4、危难.txt",
+                    "path": "/4、危难.txt",
                     "view": "essay",
                     "createDate": "2019-1-4",
                     "tag": [
@@ -170,8 +160,7 @@
                     ]
                 },
                 {
-                    "title": "5、敌军至，大战即",
-                    "path": "/essay/5、敌军至，大战即.txt",
+                    "path": "/5、敌军至，大战即.txt",
                     "view": "essay",
                     "createDate": "2019-1-5",
                     "tag": [
@@ -180,8 +169,7 @@
                     ]
                 },
                 {
-                    "title": "6、突然袭击",
-                    "path": "/essay/6、突然袭击.txt",
+                    "path": "/6、突然袭击.txt",
                     "view": "essay",
                     "createDate": "2019-1-6",
                     "tag": [
@@ -190,8 +178,7 @@
                     ]
                 },
                 {
-                    "title": "7、枪如惊雷",
-                    "path": "/essay/7、枪如惊雷.txt",
+                    "path": "/7、枪如惊雷.txt",
                     "view": "essay",
                     "createDate": "2019-1-7",
                     "tag": [
@@ -200,8 +187,7 @@
                     ]
                 },
                 {
-                    "title": "8、龙之炎阳",
-                    "path": "/essay/8、龙之炎阳.txt",
+                    "path": "/8、龙之炎阳.txt",
                     "view": "essay",
                     "createDate": "2019-1-8",
                     "tag": [
@@ -210,8 +196,8 @@
                     ]
                 },
                 {
-                    "title": "9、击溃",
-                    "path": "/essay/9、击溃.txt",
+
+                    "path": "/9、击溃.txt",
                     "view": "essay",
                     "createDate": "2019-1-9",
                     "tag": [
@@ -220,8 +206,7 @@
                     ]
                 },
                 {
-                    "title": "10、庆功宴",
-                    "path": "/essay/10、庆功宴.txt",
+                    "path": "/10、庆功宴.txt",
                     "view": "essay",
                     "createDate": "2019-1-10",
                     "tag": [
@@ -230,8 +215,7 @@
                     ]
                 },
                 {
-                    "title": "11、争斗",
-                    "path": "/essay/11、争斗.txt",
+                    "path": "/11、争斗.txt",
                     "view": "essay",
                     "createDate": "2019-1-11",
                     "tag": [
@@ -240,8 +224,7 @@
                     ]
                 },
                 {
-                    "title": "12、昆仑九式",
-                    "path": "/essay/12、昆仑九式.txt",
+                    "path": "/12、昆仑九式.txt",
                     "view": "essay",
                     "createDate": "2019-1-12",
                     "tag": [
@@ -250,8 +233,7 @@
                     ]
                 },
                 {
-                    "title": "13、疗伤",
-                    "path": "/essay/13、疗伤.txt",
+                    "path": "/13、疗伤.txt",
                     "view": "essay",
                     "createDate": "2019-1-13",
                     "tag": [
@@ -268,7 +250,6 @@
             "createDate": "2021-03-02",
             "updateDate": "2023-01-16",
             "image": "/project/xcode.svg",
-            "title": "绘言杀 HuiYanKill",
             "view": "module",
             "path": "/project/绘言杀 HuiYanKill.md",
             "info": "无名杀项目，后续使用 UIKit 开发，然后使用 Godot 重构，暂时搁置。",
@@ -281,24 +262,19 @@
             "createDate": "2023-06-01",
             "updateDate": "2023-10-01",
             "image": "/project/xcode.svg",
-            "title": "论坛 LearnTime",
             "view": "module",
             "path": "/project/论坛 LearnTime.md",
             "info": "用户自部署 NAS 笔记软件，SwiftUI 重构中...",
             "tag": [
                 "项目",
                 "开源",
-                "重构","项目",
-                "开源",
-                "重构",
-                "暂时搁置"
+                "重构"
             ]
         },
         {
             "createDate": "2024-01-01",
             "updateDate": "2024-01-02",
             "image": "/project/xcode.svg",
-            "title": "目录树 DirectoryTree",
             "view": "module",
             "path": "/project/目录树 DirectoryTree.md",
             "info": "Python 写的目录树备份软件。",
@@ -312,7 +288,6 @@
             "createDate": "2024-09-04",
             "updateDate": "2024-11-10",
             "image": "/project/gowow.png",
-            "title": "取物 GoWow",
             "view": "module",
             "path": "/project/取物 GoWow.md",
             "info": "用户自部署 NAS 商城，较为完善，也顺便充当了毕业设计。",
@@ -327,7 +302,6 @@
             "createDate": "2024-11-12",
             "updateDate": "2024-11-18",
             "image": "/project/xcode.svg",
-            "title": "闪光集 ShineSet",
             "view": "module",
             "path": "/project/闪光集 ShineSet.md",
             "info": "用户自部署 NAS 相册，开发初期...",
@@ -340,7 +314,6 @@
             "createDate": "2024-12-20",
             "updateDate": "2024-01-14",
             "image": "/project/xcode.svg",
-            "title": "极相册同步工具 ZalbumSyncTool",
             "view": "module",
             "path": "/project/极相册同步工具 ZalbumSyncTool.md",
             "info": "极相册（极空间的附属功能）的同步工具，用于解决极相册备份的实况照片视频部分被隐藏造成的一系列麻烦。",
@@ -356,7 +329,6 @@
         {
             "createDate": "2024-09-01",
             "image": "/video/1.jpg",
-            "title": "飞牛私有云系统首发评测",
             "view": "cover",
             "path": "/video/飞牛私有云系统首发评测.md",
             "info": "飞牛私有云系统评测，是系统出了第一天就测试的，后续也有小版本更新，不过不影响。",
@@ -372,7 +344,6 @@
             "createDate": "2025-1-15",
             "image": "/video/2.jpg",
             "view": "cover",
-            "title": "极相册同步工具 v1.0.0 官方教程",
             "path": "/video/极相册同步工具 v1.0.0 官方教程.md",
             "info": "没有写...",
             "tag": [
