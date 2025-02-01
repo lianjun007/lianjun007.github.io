@@ -313,9 +313,10 @@
         {
             "createDate": "2024-12-20",
             "updateDate": "2024-01-14",
-            "image": "/project/xcode.svg",
+            "image": "/project/zalbumLogo.png",
             "view": "module",
-            "path": "/project/极相册同步工具 ZalbumSyncTool.md",
+            "path": "极相册同步工具 ZalbumSyncTool",
+            "textLink": "",
             "info": "极相册（极空间的附属功能）的同步工具，用于解决极相册备份的实况照片视频部分被隐藏造成的一系列麻烦。",
             "tag": [
                 "项目",
