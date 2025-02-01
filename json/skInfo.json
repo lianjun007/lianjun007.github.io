@@ -1,74 +1,62 @@
 [
     {
         "image": "/skill/iosdev/iosdev.png",
-        "title": "iOS 开发",
         "info": "最擅长的技能，从 2022 年开始学习 Swift 语言，然后接触 UIKit、SwiftUI、SwiftData 等技术，算是我的“编程母语”了，写起来也算是比较熟练。",
-        "type": "/skill/iOS 开发.md" 
+        "path": "/skill/iOS 开发.md"
     },
     {
         "image": "/skill/webdev/webdev.png",
-        "title": "前端开发",
         "info": "还没写...",
-        "type": "skill" 
+        "path": "/skill/前端开发.md"
     },
     {
         "image": "/skill/uidesign/uidesign.png",
-        "title": "UI 设计",
         "info": "还没写...",
-        "type": "skill" 
+        "path": "/skill/UI 设计.md"
     },
     {
         "image": "/skill/nas/nas.png",
-        "title": "NAS 研究",
         "info": "还没写...",
-        "type": "skill" 
+        "path": "/skill/NAS 研究.md"
     },
     {
         "image": "/skill/server/server.png",
-        "title": "后端开发",
         "info": "还没写...",
-        "type": "skill" 
+        "path": "/skill/后端开发.md"
     },
     {
         "image": "/lianjun.png",
-        "title": "AI 使用",
         "info": "还没写...",
-        "type": "skill" 
+        "path": "/skill/AI 使用.md"
     },
     {
         "image": "/skill/py/py.png",
-        "title": "Python",
         "info": "还没写...",
-        "type": "skill" 
+        "path": "/skill/Python.md"
     },
     {
         "image": "/lianjun.png",
-        "title": "微信小程序开发",
         "info": "还没写...",
-        "type": "skill" 
+        "path": "/skill/微信小程序开发.md"
     },
     {
         "image": "/lianjun.png",
-        "title": "游戏开发",
         "info": "Godot 等工具使用",
-        "type": "skill" 
+        "path": "/skill/游戏开发.md"
     },
     {
         "image": "/lianjun.png",
-        "title": "视频剪辑",
         "info": "还没写...",
-        "type": "skill" 
+        "path": "/skill/视频剪辑.md"
     },
     {
         "image": "/lianjun.png",
-        "title": "办公套件",
         "info": "凑数的，大伙都会用。",
-        "type": "skill" 
+        "path": "/skill/办公套件.md"
     },
     {
         "image": "/lianjun.png",
-        "title": "其他",
         "info": "还没写...",
-        "type": "skill" 
+        "path": "/skill/其他.md"
     }
 ]
