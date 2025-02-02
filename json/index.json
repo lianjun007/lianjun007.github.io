@@ -240,6 +240,24 @@
                         "小说",
                         "原创"
                     ]
+                },
+                {
+                    "path": "/14、密室.txt",
+                    "view": "essay",
+                    "createDate": "2019-1-14",
+                    "tag": [
+                        "小说",
+                        "原创"
+                    ]
+                },
+                {
+                    "path": "/番外1.txt",
+                    "view": "essay",
+                    "createDate": "2021-7-18",
+                    "tag": [
+                        "小说",
+                        "原创"
+                    ]
                 }
             ]
         }
@@ -315,7 +333,7 @@
             "updateDate": "2024-01-14",
             "image": "/project/zalbumLogo.png",
             "view": "module",
-            "path": "极相册同步工具 ZalbumSyncTool",
+            "path": "/project/极相册同步工具 ZalbumSyncTool.md",
             "textLink": "",
             "info": "极相册（极空间的附属功能）的同步工具，用于解决极相册备份的实况照片视频部分被隐藏造成的一系列麻烦。",
             "tag": [
