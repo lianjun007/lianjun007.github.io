@@ -3,197 +3,200 @@
         "info": "XCode",
         "image": "iosdev/xcode.png",
         "size": "45",
-        "marginRight": "6"
+        "marginRight": "-6"
     },
     {
-        "info": "XCode",
+        "info": "Swift",
         "image": "iosdev/swift.png",
         "size": "40",
         "marginRight": "0"
     },
     {
-        "info": "XCode",
+        "info": "SwiftUI",
         "image": "iosdev/swiftui.png",
         "size": "40",
         "marginRight": "0"
     },
     {
-        "info": "XCode",
+        "info": "SwiftData",
         "image": "iosdev/swiftdata.png",
         "size": "40",
         "marginRight": "0"
     },
     {
-        "info": "XCode",
+        "info": "VS Code",
         "image": "webdev/vscode.png",
-        "size": "35",
-        "marginRight": "12"
+        "size": "37",
+        "marginRight": "-1"
     },
     {
-        "info": "XCode",
+        "info": "HTML5",
         "image": "webdev/html5.png",
         "size": "36",
-        "marginRight": "0"
+        "marginRight": "-2"
     },
     {
-        "info": "XCode",
+        "info": "CSS3",
         "image": "webdev/css3.png",
         "size": "36",
-        "marginRight": "12"
+        "marginRight": "0"
     },
     {
-        "info": "XCode",
+        "info": "JavaScript",
         "image": "webdev/javascript.png",
         "size": "35",
-        "marginRight": "13"
+        "marginRight": "3"
     },
     {
+        "info": "Axure RP9",
         "image": "uidesign/axurerp9.png",
-        "size": "37",
-        "marginRight": "14"
+        "size": "38",
+        "marginRight": "2"
     },
     {
-        "info": "XCode",
+        "info": "Figma",
         "image": "uidesign/figma.png",
         "size": "36",
-        "marginRight": "0"
+        "marginRight": "-1"
     },
     {
-        "info": "XCode",
+        "info": "Sketch",
         "image": "uidesign/sketch.png",
-        "size": "39",
-        "marginRight": "0"
+        "size": "42",
+        "marginRight": "-3"
     },
     {
-        "info": "XCode",
+        "info": "Adobe Illustrator",
         "image": "uidesign/ai.png",
-        "size": "44",
-        "marginRight": "0"
+        "size": "45",
+        "marginRight": "-6"
     },
     {
-        "info": "XCode",
+        "info": "Adobe Photoshop",
         "image": "uidesign/ps.png",
-        "size": "44",
-        "marginRight": "0"
+        "size": "45",
+        "marginRight": "-6"
     },
     {
-        "info": "XCode",
+        "info": "NAS",
         "image": "nas/naslogo.png",
-        "size": "43",
-        "marginRight": "0"
+        "size": "47",
+        "marginRight": "-2"
     },
     {
+        "info": "极空间",
         "image": "nas/zspace.png",
-        "size": "35",
-        "marginRight": "0"
+        "size": "37",
+        "marginRight": "2"
     },
     {
-        "info": "XCode",
+        "info": "OpenWrt",
         "image": "nas/openwrt.png",
-        "size": "35",
+        "size": "37",
         "marginRight": "0",
         "borderRadius": "8"
     },
     {
-        "info": "XCode",
+        "info": "Synology",
         "image": "nas/synology.png",
-        "size": "41",
-        "marginRight": "0"
+        "size": "43",
+        "marginRight": "-1"
     },
     {
-        "info": "XCode",
+        "info": "Docker",
         "image": "server/docker.png",
-        "size": "40",
-        "marginRight": "0"
+        "size": "50",
+        "marginRight": "-1"
     },
     {
-        "info": "XCode",
+        "info": "Node.js",
         "image": "server/nodejs.png",
-        "size": "36",
+        "size": "39",
         "marginRight": "0"
     },
     {
-        "info": "XCode",
+        "info": "SQLite",
         "image": "server/sqlite.png",
-        "size": "35",
-        "marginRight": "0"
+        "size": "38",
+        "marginRight": "-4"
     },
     {
-        "info": "XCode",
+        "info": "Termius",
         "image": "server/termius.png",
-        "size": "35",
-        "marginRight": "0"
+        "size": "46",
+        "marginRight": "-6"
     },
     {
-        "info": "XCode",
+        "info": "ChatGPT",
         "image": "ai/chatgpt.png",
-        "size": "36",
-        "marginRight": "0"
+        "size": "47",
+        "marginRight": "-4"
     },
     {
-        "info": "XCode",
+        "info": "Microsoft Copilot",
         "image": "ai/mscopilot.png",
-        "size": "36",
-        "marginRight": "12"
+        "size": "40",
+        "marginRight": "-2"
     },
     {
-        "info": "XCode",
+        "info": "豆包",
         "image": "ai/doubao.png",
-        "size": "36",
-        "marginRight": "0"
+        "size": "46",
+        "marginRight": "-1"
     },
     {
-        "info": "XCode",
+        "info": "Stable Diffusion",
         "image": "ai/stablediffusion.png",
-        "size": "36",
-        "marginRight": "0"
+        "size": "38",
+        "marginRight": "1",
+        "radius": "100"
     },
     {
-        "info": "XCode",
+        "info": "Pycharm",
         "image": "py/pycharm.png",
         "size": "40",
-        "marginRight": "0"
+        "marginRight": "-4"
     },
     {
-        "info": "XCode",
+        "info": "Python",
         "image": "py/python.png",
-        "size": "40",
-        "marginRight": "0"
+        "size": "45",
+        "marginRight": "-4"
     },
     {
-        "info": "XCode",
+        "info": "微信开发开发者工具",
         "image": "wxdev/wxtool.png",
-        "size": "36",
-        "marginRight": "0"
+        "size": "46",
+        "marginRight": "-4"
     },
     {
-        "info": "XCode",
+        "info": "Obsidian",
         "image": "office/obsidian.png",
-        "size": "36",
-        "marginRight": "12"
+        "size": "45",
+        "marginRight": "-4"
     },
     {
-        "info": "XCode",
+        "info": "Excel",
         "image": "office/excel.png",
-        "size": "36",
-        "marginRight": "12"
+        "size": "46",
+        "marginRight": "-6"
     },
     {
-        "info": "XCode",
+        "info": "Power Point",
         "image": "office/ppt.png",
-        "size": "36",
-        "marginRight": "12"
+        "size": "46",
+        "marginRight": "-6"
     },
     {
-        "info": "XCode",
+        "info": "Word",
         "image": "office/word.png",
-        "size": "36",
-        "marginRight": "12"
+        "size": "46",
+        "marginRight": "-2"
     },
     {
-        "info": "XCode",
+        "info": "Markdown",
         "image": "other/markdown.png",
         "size": "36",
-        "marginRight": "0"
+        "marginRight": "10"
     }
 ]
