@@ -6,38 +6,24 @@
     <link rel="icon" href="./image/lianjun.png">
     <link rel="manifest" href="./json/manifest.json">
     <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <meta name="theme-color" content="#3A6A5E">
     <title>LianJun</title>
-  <script type="module" crossorigin src="./assets/index-tEH5YpEv.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-B9wOG5c2.css">
+  <script type="module" crossorigin src="./assets/index-CSPcsrkT.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-a_dLw7r3.css">
 </head>
 
 <body>
     <div id="app"></div>
     <script>
-        // 禁止双指缩放
-        document.addEventListener('gesturestart', function (event) {
+        document.addEventListener("gesturestart", function (event) {
             event.preventDefault();
-        });
+        }, { passive: false });
 
-        // 禁止双指缩放，优化 touchmove 事件处理
-        document.addEventListener('touchmove', function (event) {
-            // 仅当明确检测到缩放手势（scale 变化明显）时阻止默认行为
-            if (Math.abs(event.scale - 1) > 0.1) {
-                event.preventDefault();
-            }
-        }, { passive: true }); // 设置为被动监听器，允许浏览器默认滚动行为
+        document.addEventListener("touchmove", function (event) {
+            console.log(event)
 
-        let lastTouchEnd = 0;
-        // 禁止双击缩放
-        document.addEventListener('touchend', function (event) {
-            const now = new Date().getTime();
-            if (now - lastTouchEnd <= 300) {
-                event.preventDefault();
-            }
-            lastTouchEnd = now;
-        }, false);
+        }, { passive: false });
     </script>
 </body>
 

@@ -11,7 +11,7 @@
         "link": "https://v.douyin.com/iyp2FA8u/",
         "image": "tiktok1.png",
         "padding": "2.5",
-        "color": "#000000"
+        "color": "var(--themeColor)"
     },
     {
         "name": "邮箱",
@@ -25,6 +25,6 @@
         "link": "https://github.com/lianjun007",
         "image": "github1.png",
         "padding": "0",
-        "color": "#000000"
+        "color": "var(--themeColor)"
     }
 ]
