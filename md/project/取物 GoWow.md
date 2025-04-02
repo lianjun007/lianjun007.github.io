@@ -1,72 +1,63 @@
-# AI 生成的文本占位符，真实内容还没写
-# GoWow官方介绍
-欢迎来到 GoWow 的精彩世界！GoWow 是一款为追求极致出行体验、热衷探索新领域的用户倾力打造的综合性出行与生活服务平台。无论你是城市通勤族、旅游爱好者，还是商务出行人士，GoWow 都能成为你出行路上的贴心伙伴，为你的生活增添无限便利与乐趣。
+GoWow 中文名“购物”，为了辨识图改名“取物”，一款用户自部署的线上交易系统。
 
-在 GoWow 的平台上，你将享受到丰富多样且极具特色的出行服务。它打破了传统出行方式的单一性，创新性地整合了多种出行模式，包括网约车、共享单车、租车以及定制化的旅游包车等，为你带来全方位、个性化的出行选择。
+本人的毕业设计，不过后续还有继续开发，简单来说就是一个类似 Emby、Jellyfin、Plex 的产品，只不过这些是影视媒体库，而 GoWow 是购物软件。iOS 端和后端开发完毕了，后续暂时没继续开发网页版，小程序版遇到了一些阻力（小程序没办法跨域请求，也就是用户没办法访问自部署的服务器的域名，倒是可以通过云函数，但是总感觉怪怪的）
 
-以网约车服务为例，GoWow 运用先进的算法和智能调度系统，确保你能快速叫到车，减少等待时间。以下是一个简单的模拟代码示例，展示 GoWow 网约车服务中订单匹配的基本逻辑：
-```python
-# 定义车辆类
-class Vehicle:
-    def __init__(self, vehicle_id, location):
-        self.vehicle_id = vehicle_id
-        self.location = location
+## 论文简介
 
-# 定义乘客类
-class Passenger:
-    def __init__(self, passenger_id, origin, destination):
-        self.passenger_id = passenger_id
-        self.origin = origin
-        self.destination = destination
+**基于SwiftUI 和 Node.js 的自部署线上交易系统“GoWow”**
 
-# 模拟订单匹配算法
-def match_order(passenger, vehicles):
-    closest_vehicle = None
-    min_distance = float('inf')
-    for vehicle in vehicles:
-        # 这里简单假设距离为两点坐标差值的绝对值之和，实际会更复杂
-        distance = abs(passenger.origin[0] - vehicle.location[0]) + abs(passenger.origin[1] - vehicle.location[1])
-        if distance < min_distance:
-            min_distance = distance
-            closest_vehicle = vehicle
-    return closest_vehicle
+本文介绍了一种基于 SwiftUI 和 Node.js 的自部署线上交易系统的设计与实现。该系统旨在提供一个可私有化部署、可高度定制、性能优越、用户体验良好的线上交易解决方案。系统采用SwiftUI进行前端开发，实现商品展示、购物交互、个性化设置、和用户账户数据管理等核心功能，并借助 Node.js 构建后端，支持私有化部署，保障用户数据安全，确保交易双方的数据通信以及用户私人数据备份。系统内部交互体验良好、功能完善，支持多级商品选择，用户可根据商品规格动态更新价格、库存等信息。此外，系统还集成了推荐服务、实时聊天服务（基于VoceChat）等功能，提升了整体交互体验。系统的代码编写规范、数据管理采用 SwiftData 技术，具有良好扩展性、安全性以及性能。
 
-# 使用示例
-vehicle1 = Vehicle(1, (10, 10))
-vehicle2 = Vehicle(2, (12, 12))
-passenger1 = Passenger(1, (11, 11), (20, 20))
-assigned_vehicle = match_order(passenger1, [vehicle1, vehicle2])
-print(f"为乘客 {passenger1.passenger_id} 匹配到的车辆是 {assigned_vehicle.vehicle_id}")
-```
-通过这样的算法，GoWow 能够快速为乘客找到最合适的车辆，提升出行效率。
+## 项目截屏展示
 
-除了出行服务，GoWow 还深度融入生活服务领域。在平台上，你可以预订酒店、查找周边美食、购买景点门票等，一站式满足你在出行过程中的各种需求。比如，当你到达一个新的城市旅游时，通过 GoWow 不仅能轻松叫车前往酒店，还能在平台上浏览附近的热门餐厅和景点，提前预订心仪的美食和门票。
+取自论文，较模糊，见谅。
 
-GoWow 的智能推荐系统会根据你的出行历史、偏好设置等信息，为你精准推荐符合你需求的服务和产品。以下是智能推荐系统的简单代码示例逻辑：
-```python
-# 定义用户类
-class User:
-    def __init__(self, user_id, preferences):
-        self.user_id = user_id
-        self.preferences = preferences
+### 图标截图
 
-    def get_recommendations(self, service_list):
-        recommendations = []
-        for service in service_list:
-            for preference in self.preferences:
-                if preference in service:
-                    recommendations.append(service)
-        return recommendations
+![论文取图](./md/media/取物%20GoWow/image-11.png)
 
-# 使用示例
-user1 = User(1, ["火锅", "海景酒店"])
-services = ["川菜馆", "火锅餐厅", "普通酒店", "海景酒店"]
-recommended_services = user1.get_recommendations(services)
-print(f"为用户 {user1.user_id} 推荐的服务是: {recommended_services}")
-```
-通过这个系统，你可以更便捷地发现符合自己喜好的服务，让出行和生活更加顺心如意。
+![论文取图](./md/media/取物%20GoWow/image-12.png)
 
-GoWow 的界面设计简洁美观，操作流程简单易懂，无论是在手机端还是电脑端，都能为你提供流畅的使用体验。同时，我们拥有专业的客服团队，随时为你解决在使用过程中遇到的问题，确保你的出行和生活服务顺利进行。
+![论文取图](./md/media/取物%20GoWow/image-13.png)
 
-快来加入 GoWow，开启便捷、舒适、个性化的出行与生活新体验，让每一次出行都充满惊喜与美好！
-![GoWow应用界面](https://example.com/gowow_interface.jpg) 
+### 界面展示
+
+![论文取图](./md/media/取物%20GoWow/image.png)
+
+### 设置界面
+
+![论文取图](./md/media/取物%20GoWow/image-1.png)
+
+### 与淘宝的部分对比
+
+![论文取图](./md/media/取物%20GoWow/image-14.png)
+
+### 登录注册
+
+![论文取图](./md/media/取物%20GoWow/image-2.png)
+
+### 深色模式
+
+![论文取图](./md/media/取物%20GoWow/image-3.png)
+
+### 项目结构
+
+![论文取图](./md/media/取物%20GoWow/image-4.png)
+
+### 服务器配置
+
+![论文取图](./md/media/取物%20GoWow/image-5.png)
+
+### 流程图
+
+![论文取图](./md/media/取物%20GoWow/image-6.png)
+
+![论文取图](./md/media/取物%20GoWow/image-7.png)
+
+![论文取图](./md/media/取物%20GoWow/image-8.png)
+
+![论文取图](./md/media/取物%20GoWow/image-9.png)
+
+## 客服界面
+
+![论文取图](./md/media/取物%20GoWow/image-10.png)

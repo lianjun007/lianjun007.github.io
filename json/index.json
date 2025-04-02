@@ -349,7 +349,8 @@
             "updateDate": "2024-01-14",
             "image": "/project/zalbumLogo.png",
             "view": "module",
-            "path": "/project/极相册同步工具 ZalbumSyncTool.md",
+            "title": "极相册同步工具 ZalbumSyncTool",
+            "path": "https://raw.githubusercontent.com/lianjun007/ZalbumSyncTool/refs/heads/main/README.md",
             "textLink": "",
             "info": "极相册（极空间的附属功能）的同步工具，用于解决极相册备份的实况照片视频部分被隐藏造成的一系列麻烦。",
             "tag": [
