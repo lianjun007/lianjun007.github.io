@@ -1,65 +1,39 @@
-# AI 生成的文本占位符，真实内容还没写
-# DirectoryTree官方介绍
-欢迎来到 DirectoryTree 的奇妙世界，这是一款专为管理和可视化目录结构而精心设计的强大工具，无论是专业的开发人员、系统管理员，还是普通用户，DirectoryTree 都能为你在文件管理和信息查找上提供极大的便利。
+## 简介
 
-在 DirectoryTree 的应用场景中，你可以轻松地对计算机中的目录结构进行全面掌控。它打破了传统文件管理方式的局限，以直观、清晰的可视化界面呈现目录层次，让你对文件的存储位置和相互关系一目了然。
+由于 DiskGenius 只能对物理磁盘导出目录结构，而我因为需要对网盘和 NAS 里面存的影视资源目录结构备份（影视文件太大了，直接备份不值得，丢了知道重新下载哪些就好了）故开发了此软件，只是一个 demo。从计划到实现大约耗时四个小时，所以很简陋，至少要先有的用。功能就是选择一个文件目录， 然后生成一个 HTML 文件来显示他的结构。
 
-对于开发人员来说，在项目管理过程中，清晰的目录结构至关重要。以下是一个简单的 Python 代码示例，展示如何使用 DirectoryTree 来处理项目中的目录结构信息（假设 DirectoryTree 有对应的类和方法来操作）：
-```python
-# 假设 DirectoryTree 类已经定义
-class DirectoryTree:
-    def __init__(self, root_path):
-        self.root_path = root_path
-        self.tree_structure = self.build_tree()
+## 下载
 
-    def build_tree(self):
-        # 这里是构建目录树结构的逻辑，实际代码会更复杂
-        tree = {}
-        # 模拟获取目录下的文件和子目录
-        files_and_dirs = ["file1.txt", "sub_dir1", "file2.py"]
-        for item in files_and_dirs:
-            if item.endswith(".txt") or item.endswith(".py"):
-                tree[item] = "file"
-            else:
-                tree[item] = "directory"
-        return tree
+由于是 demo 版本，代码也写的很乱，也就没有上传到 Github，只有 windows 打包的 demo-20240122 版本可以下载。如果需要源代码或者开发版源代码可以联系我的邮箱或者各平台私信（代码里面很乱就不直接摆出来丢人了，有时间稍微整理规整好一点再放在这可公开下载）。
 
-    def display_tree(self):
-        print(f"目录树结构 for {self.root_path}:")
-        for key, value in self.tree_structure.items():
-            if value == "file":
-                print(f"  ├── {key}")
-            else:
-                print(f"  ├── {key}/")
+<a href="./md/media/demo-20240122.exe" download="DirectoryTree.exe">下载软件</a>
 
-# 使用示例
-project_root = "/path/to/your/project"
-tree = DirectoryTree(project_root)
-tree.display_tree()
-```
-通过上述代码，你可以快速构建并展示项目目录的基本结构。DirectoryTree 不仅能帮助你直观地查看目录，还能在你需要查找特定文件或了解目录层次关系时，提供高效的操作方式。
+## 版本
 
-DirectoryTree 支持多种操作系统，无论是 Windows、Mac 还是 Linux，都能完美适配。它的操作界面简洁明了，即使是没有太多技术背景的用户，也能轻松上手。你可以通过简单的操作，快速展开或折叠目录层级，搜索特定文件，还能对目录进行重命名、移动、删除等常规操作。
+### 最新版本 demo-20240122
 
-同时，DirectoryTree 还具备强大的导出功能，你可以将当前的目录结构以文本、图片等多种格式导出，方便与他人分享或用于文档记录。以下是关于导出功能的简单代码示例逻辑：
-```python
-import json
+软件界面图：
 
-class DirectoryTree:
-    # 省略前面的方法定义
+![demo-20240122 预览图](./md/media/2.png)
 
-    def export_tree_to_json(self, output_path):
-        with open(output_path, 'w') as file:
-            json.dump(self.tree_structure, file, indent=4)
+生成 HTML 示例图：
 
-# 使用示例
-project_root = "/path/to/your/project"
-tree = DirectoryTree(project_root)
-tree.export_tree_to_json("directory_structure.json")
-```
-通过这个功能，你可以将复杂的目录结构以易于保存和分享的形式记录下来。
+![demo-20240122 生成页面图](./md/media/4.png)
 
-无论你是在整理个人文件，还是管理大型项目的目录，DirectoryTree 都能满足你的需求。它致力于提升你的文件管理效率，让你不再为繁琐的目录结构而烦恼。
+#### 已知问题
 
-快来体验 DirectoryTree，开启高效、便捷的目录管理之旅，让你的文件管理工作变得更加轻松、有序！
-![DirectoryTree操作界面](https://example.com/directorytree_interface.jpg) 
+极空间通过 CloudDrive2 挂载到 Windows 的磁盘（Webdev 协议）在生成目录树时好像有 BUG。生成的时候软件会卡住直到生成结束，应该改为进度条显示进度，但是还没做。比起 DiskGenius 来说，生成速度太慢了。
+
+开发版软件界面图：
+
+![demo-20240122 生成过程图](./md/media/3.png)
+
+### 开发版
+
+后续打算做其他功能，先做了 qbittorrent 自动整理的相关功能，但是由于当时是玩 BT 才需要这个功能，后续玩 PT 使用 MP 等整理工具了，就不需要这个功能了，相册、影视之类的也都有相关的软件使用。项目也就搁置了。
+
+![开发版界面图](./md/media/5.png)
+
+## 未来展望
+
+如果还有机会，可能会开发成 docker 部署的自动定时备份指定目录为 HTML 文件的项目，包括文件定时备份之类的吧，至少现在太鸡肋了，备份太慢并且每次还得手动去执行。

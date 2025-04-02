@@ -2,9 +2,9 @@
     "文章": [
         "essay",
         {
-            "path": "/essay/CSS 笔记",
+            "path": "/essay/CSS 教程",
             "view": "set",
-            "info": "没有写...",
+            "info": "当时想写成教程博客的，后续没继续写，太浪费时间并且没什么用，这种东西建议直接去 MDN 翻文档。",
             "createDate": "2023-01-01",
             "image": "/skill/webdev/css3.png",
             "tag": ["教程与笔记", "CSS"],
@@ -121,7 +121,7 @@
             "view": "set",
             "createDate": "2019-01-01",
             "tag": ["小说", "原创"],
-            "info": "小时候写的小说。",
+            "info": "小时候写的小说，比较幼稚，随便放的，不建议看。",
             "sub": [
                 {
                     "path": "/1、十六年前的约定.txt",
@@ -260,6 +260,22 @@
                     ]
                 }
             ]
+        },
+        {
+            "path": "/essay/IntersectionObserver 与 MutationObserver 解决控件位置变化的样式修正.md",
+            "view": "essay",
+            "info": "本文从实际开发出发介绍 IntersectionObserver 与 MutationObserver 两个 Web API。",
+            "createDate": "2025-03-12",
+            "updateDate": "2025-04-02",
+            "tag": ["Web 开发", "原创"]
+        },
+        {
+            "path": "/essay/FaceFusion 安装使用备忘.md",
+            "view": "essay",
+            "info": "简单记录下自己安装使用 FaceFusion 的过程。",
+            "createDate": "2025-03-28",
+            "updateDate": "2025-03-31",
+            "tag": ["AI", "换脸", "原创"]
         }
     ],
     "项目": [
@@ -290,16 +306,16 @@
             ]
         },
         {
-            "createDate": "2024-01-01",
-            "updateDate": "2024-01-02",
+            "createDate": "2024-01-24",
+            "updateDate": "2024-01-24",
             "image": "/project/xcode.svg",
             "view": "module",
             "path": "/project/目录树 DirectoryTree.md",
-            "info": "Python 写的目录树备份软件。",
+            "info": "Python 写的目录树备份软件，后续还开发了 qbittorrent 整理相关功能。",
             "tag": [
                 "项目",
                 "v1.0.0",
-                "暂时搁置"
+                "无限期搁置"
             ]
         },
         {
@@ -340,6 +356,19 @@
                 "项目",
                 "v1.0.0",
                 "开源"
+            ]
+        },
+        {
+            "createDate": "2024-01-10",
+            "updateDate": "2025-04-02",
+            "image": "/project/xcode.svg",
+            "view": "module",
+            "path": "/project/言页 YanPage.md",
+            "textLink": "",
+            "info": "一款美观的响应式个人主页项目，采用 Vue3 开发。",
+            "tag": [
+                "项目",
+                "开发中"
             ]
         }
     ],

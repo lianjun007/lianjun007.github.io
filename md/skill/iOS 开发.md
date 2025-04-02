@@ -2,7 +2,7 @@
 
 所以当大学学完 Swift 后开始学习 iOS 开发时，就开始比较入迷。加上那时候已经有 AI 了，边学边写起来也很得心应手，甚至入迷到请假在家写代码（刚好新冠阳了，也不是很舒服），平均每天写 14+ 个小时。
 
-<video src="./md/media/1.mp4" style="width: 100%;" controls poster></video>
+<video src="./md/media/1.mp4" controls poster></video>
 
 （当年才学时候录制制作的游戏，才开始做的时候录制的视频，后续还做了不少，不过最后还是没继续做了...）
 
